@@ -1,0 +1,1946 @@
+﻿Log file open, 08/09/24 18:13:26
+LogInit: Display: Running engine for game: IM03_ThirdPersonBP
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.189379
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz, GPU: NVIDIA GeForce GTX 1050
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE_4.25/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Engine.ini]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Engine.ini]
+[2024.08.09-09.13.26:368][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Engine.ini]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Engine.ini]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2024.08.09-09.13.26:368][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2024.08.09-09.13.26:369][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2024.08.09-09.13.26:369][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2024.08.09-09.13.26:369][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2024.08.09-09.13.26:369][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2024.08.09-09.13.26:369][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2024.08.09-09.13.26:369][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Engine.ini]
+[2024.08.09-09.13.26:369][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Engine.ini]
+[2024.08.09-09.13.26:371][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Scalability.ini]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Scalability.ini]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Scalability.ini]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Scalability.ini]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2024.08.09-09.13.26:371][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Scalability.ini]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Scalability.ini]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Scalability.ini]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Scalability.ini]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2024.08.09-09.13.26:372][  0]LogInit: Selected Device Profile: [Windows]
+[2024.08.09-09.13.26:372][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2024.08.09-09.13.26:372][  0]LogHAL: Display: Platform has ~ 16 GB [17110802432 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2024.08.09-09.13.26:372][  0]LogInit: Going up to parent DeviceProfile []
+[2024.08.09-09.13.26:372][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Scalability.ini]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Scalability.ini]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Scalability.ini]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2024.08.09-09.13.26:372][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Scalability.ini]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Scalability.ini]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Scalability.ini]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Scalability.ini]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Scalability.ini]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2024.08.09-09.13.26:373][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2024.08.09-09.13.26:374][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2024.08.09-09.13.26:374][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2024.08.09-09.13.26:374][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2024.08.09-09.13.26:374][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/LJS/IM03_ThirdPersonBP/Saved/Config/Windows/Engine.ini]
+[2024.08.09-09.13.26:374][  0]LogInit: Computer: DESKTOP-S8820IN
+[2024.08.09-09.13.26:374][  0]LogInit: User: SGAD013
+[2024.08.09-09.13.26:374][  0]LogInit: CPU Page size=4096, Cores=6
+[2024.08.09-09.13.26:374][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.08.09-09.13.26:374][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2024.08.09-09.13.26:374][  0]LogMemory: Platform Memory Stats for Windows
+[2024.08.09-09.13.26:374][  0]LogMemory: Process Physical Memory: 117.55 MB used, 117.55 MB peak
+[2024.08.09-09.13.26:374][  0]LogMemory: Process Virtual Memory: 109.90 MB used, 109.90 MB peak
+[2024.08.09-09.13.26:374][  0]LogMemory: Physical Memory: 3930.51 MB used,  12387.62 MB free, 16318.13 MB total
+[2024.08.09-09.13.26:374][  0]LogMemory: Virtual Memory: 5153.58 MB used,  134212576.00 MB free, 134217728.00 MB total
+[2024.08.09-09.13.26:380][  0]LogWindows: WindowsPlatformFeatures enabled
+[2024.08.09-09.13.26:411][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2024.08.09-09.13.26:412][  0]LogInit: Using OS detected language (ko-KR).
+[2024.08.09-09.13.26:412][  0]LogInit: Using OS detected locale (ko-KR).
+[2024.08.09-09.13.26:414][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2024.08.09-09.13.26:492][  0]LogInit: Setting process to per monitor DPI aware
+[2024.08.09-09.13.26:531][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2024.08.09-09.13.26:531][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2024.08.09-09.13.26:731][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.08.09-09.13.26:731][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2024.08.09-09.13.26:731][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2024.08.09-09.13.26:731][  0]LogD3D11RHI: D3D11 adapters:
+[2024.08.09-09.13.26:854][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2024.08.09-09.13.26:854][  0]LogD3D11RHI:       1977/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2024.08.09-09.13.26:856][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2024.08.09-09.13.26:856][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.08.09-09.13.26:856][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2024.08.09-09.13.26:861][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2024.08.09-09.13.26:861][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
+[2024.08.09-09.13.26:861][  0]LogWindows: EnumDisplayDevices:
+[2024.08.09-09.13.26:861][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2024.08.09-09.13.26:861][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2024.08.09-09.13.26:862][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2024.08.09-09.13.26:862][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2024.08.09-09.13.26:862][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2024.08.09-09.13.26:862][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2024.08.09-09.13.26:862][  0]LogD3D11RHI:   Driver Version: 512.15 (internal:30.0.15.1215, unified:512.15)
+[2024.08.09-09.13.26:862][  0]LogD3D11RHI:      Driver Date: 3-17-2022
+[2024.08.09-09.13.26:862][  0]LogRHI: Texture pool is 1384 MB (70% of 1977 MB)
+[2024.08.09-09.13.26:919][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2024.08.09-09.13.26:919][  0]LogD3D11RHI: Async texture creation enabled
+[2024.08.09-09.13.26:919][  0]LogD3D11RHI: Array index from any shader is supported
+[2024.08.09-09.13.26:935][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2024.08.09-09.13.27:247][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2024.08.09-09.13.27:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2024.08.09-09.13.27:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2024.08.09-09.13.27:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2024.08.09-09.13.27:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2024.08.09-09.13.27:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2024.08.09-09.13.27:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2024.08.09-09.13.27:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2024.08.09-09.13.27:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2024.08.09-09.13.27:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2024.08.09-09.13.27:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2024.08.09-09.13.27:289][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2024.08.09-09.13.27:289][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2024.08.09-09.13.27:299][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2024.08.09-09.13.27:308][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2024.08.09-09.13.27:317][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2024.08.09-09.13.27:326][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2024.08.09-09.13.27:335][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2024.08.09-09.13.27:345][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2024.08.09-09.13.27:354][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2024.08.09-09.13.27:379][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2024.08.09-09.13.27:379][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2024.08.09-09.13.27:394][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2024.08.09-09.13.27:394][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2024.08.09-09.13.27:403][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2024.08.09-09.13.27:413][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2024.08.09-09.13.27:422][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2024.08.09-09.13.27:430][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2024.08.09-09.13.27:430][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2024.08.09-09.13.27:438][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2024.08.09-09.13.27:499][  0]LogShaderCompilers: Guid format shader working directory is 25 characters bigger than the processId version (C:/LJS/IM03_ThirdPersonBP/Intermediate/Shaders/WorkingDirectory/1468/).
+[2024.08.09-09.13.27:499][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SGA_D_013/AppData/Local/Temp/UnrealShaderWorkingDir/6E08FED94566AB3B21C9AF93DC8B5B98/'.
+[2024.08.09-09.13.27:499][  0]LogXGEController: Cleaning working directory: C:/Users/SGA_D_013/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2024.08.09-09.13.27:500][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2024.08.09-09.13.27:500][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2024.08.09-09.13.27:500][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2024.08.09-09.13.28:193][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2024.08.09-09.13.28:234][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/SGA_D_013/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2024.08.09-09.13.28:234][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/SGA_D_013/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2024.08.09-09.13.28:234][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/LJS/IM03_ThirdPersonBP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.08.09-09.13.28:234][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2024.08.09-09.13.28:234][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/LJS/IM03_ThirdPersonBP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.08.09-09.13.28:234][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2024.08.09-09.13.28:244][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2024.08.09-09.13.28:244][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.08.09-09.13.28:244][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2024.08.09-09.13.28:245][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SGA_D_013/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2024.08.09-09.13.28:245][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2024.08.09-09.13.28:245][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2024.08.09-09.13.28:289][  0]LogSlate: Using FreeType 2.10.0
+[2024.08.09-09.13.28:289][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.08.09-09.13.28:315][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2024.08.09-09.13.28:513][  0]LogInit: Selected Device Profile: [Windows]
+[2024.08.09-09.13.28:616][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2024.08.09-09.13.28:616][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2024.08.09-09.13.28:616][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2024.08.09-09.13.28:616][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2024.08.09-09.13.28:616][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2024.08.09-09.13.28:630][  0]LogNetVersion: IM03_ThirdPersonBP 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3407697022)
+[2024.08.09-09.13.29:018][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000022CC4C15B40), frame # 0
+[2024.08.09-09.13.29:018][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022CC4B72AC0), frame # 0
+[2024.08.09-09.13.29:019][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022CC4BC1E00), frame # 0
+[2024.08.09-09.13.29:067][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.042311 seconds
+[2024.08.09-09.13.29:071][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2024.08.09-09.13.29:071][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2024.08.09-09.13.29:071][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2024.08.09-09.13.29:406][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2024.08.09-09.13.29:410][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2024.08.09-09.13.29:499][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2024.08.09-09.13.29:499][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2024.08.09-09.13.29:503][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2024.08.09-09.13.29:506][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2024.08.09-09.13.29:514][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2024.08.09-09.13.29:764][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2024.08.09-09.13.29:784][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.08.09-09.13.29:784][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.08.09-09.13.29:830][  0]LogOcInput: OculusInput pre-init called
+[2024.08.09-09.13.29:841][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2024.08.09-09.13.29:841][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2024.08.09-09.13.29:895][  0]LogEngine: Initializing Engine...
+[2024.08.09-09.13.29:896][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.08.09-09.13.29:896][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2024.08.09-09.13.29:897][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2024.08.09-09.13.29:991][  0]LogInit: Initializing FReadOnlyCVARCache
+[2024.08.09-09.13.29:998][  0]LogAIModule: Creating AISystem for world Untitled
+[2024.08.09-09.13.29:998][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022CCB2C3C00), frame # 0
+[2024.08.09-09.13.29:998][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022CCB2BFB00), frame # 0
+[2024.08.09-09.13.30:010][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.09-09.13.30:010][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.09-09.13.30:010][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.09-09.13.30:010][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.09-09.13.30:010][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.09-09.13.30:010][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.09-09.13.30:010][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.09-09.13.30:011][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.09-09.13.30:011][  0]LogAudio: Display: Using built-in audio occlusion.
+[2024.08.09-09.13.30:011][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.09-09.13.30:020][  0]LogAudioMixer: Display: Using Audio Device Unknown
+[2024.08.09-09.13.30:022][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.09-09.13.30:024][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.09-09.13.30:024][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.09-09.13.30:025][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.09-09.13.30:026][  0]LogInit: FAudioDevice initialized.
+[2024.08.09-09.13.30:026][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2024.08.09-09.13.30:127][  0]LogDerivedDataCache: Saved boot cache 0.10s 76MB C:/Users/SGA_D_013/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2024.08.09-09.13.30:128][  0]LogInit: Texture streaming: Enabled
+[2024.08.09-09.13.30:162][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2024.08.09-09.13.30:162][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2024.08.09-09.13.30:165][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2024.08.09-09.13.30:201][  0]LogInit: Transaction tracking system initialized
+[2024.08.09-09.13.30:222][  0]BlueprintLog: New page: 에디터 로드
+[2024.08.09-09.13.30:289][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2024.08.09-09.13.30:422][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2024.08.09-09.13.30:422][  0]LogCook: Display: Mobile HDR setting 1
+[2024.08.09-09.13.30:547][  0]LogFileCache: Scanning file cache for directory 'C:/LJS/IM03_ThirdPersonBP/Content/' took 0.01s
+[2024.08.09-09.13.30:761][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2024.08.09-09.13.30:761][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.036
+[2024.08.09-09.13.30:761][  0]Cmd: MAP LOAD FILE="C:/LJS/IM03_ThirdPersonBP/Content/Maps/Demo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.08.09-09.13.30:761][  0]LightingResults: New page: 라이팅 빌드
+[2024.08.09-09.13.30:795][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2024.08.09-09.13.30:795][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.13.30:795][  0]MapCheck: New page: 맵 체크
+[2024.08.09-09.13.30:796][  0]LightingResults: New page: 라이팅 빌드
+[2024.08.09-09.13.30:834][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022CCB2C3C00), frame # 0
+[2024.08.09-09.13.30:834][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022CCB2BFB00), frame # 0
+[2024.08.09-09.13.30:836][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2024.08.09-09.13.31:250][  0]LogBlueprint: Warning: [Compiler BP_DemoRoom] Set Text (String) : 'Set Text (String)' 사용은 폐기되었습니다. Use the SetText function taking an FText instead.
+[2024.08.09-09.13.31:250][  0]LogBlueprint: Warning: [Compiler BP_DemoRoom] Set Text (String) : 'Set Text (String)' 사용은 폐기되었습니다. Use the SetText function taking an FText instead.
+[2024.08.09-09.13.31:765][  0]LogAIModule: Creating AISystem for world Demo
+[2024.08.09-09.13.31:766][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022CD453DE00), frame # 0
+[2024.08.09-09.13.31:766][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022CD4523B00), frame # 0
+[2024.08.09-09.13.32:759][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.08.09-09.13.32:889][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.08.09-09.13.32:889][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.08.09-09.13.32:890][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.239ms.
+[2024.08.09-09.13.32:890][  0]LogFileHelpers: Loading map 'Demo' took 2.129
+[2024.08.09-09.13.32:891][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.166
+[2024.08.09-09.13.33:045][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.13.33:050][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.13.33:055][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.13.33:060][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.13.33:069][  0]LogCollectionManager: Loaded 0 collections in 0.000923 seconds
+[2024.08.09-09.13.33:080][  0]LogFileCache: Scanning file cache for directory 'C:/LJS/IM03_ThirdPersonBP/Saved/Collections/' took 0.00s
+[2024.08.09-09.13.33:080][  0]LogFileCache: Scanning file cache for directory 'C:/LJS/IM03_ThirdPersonBP/Content/Developers/SGAD013/Collections/' took 0.00s
+[2024.08.09-09.13.33:080][  0]LogFileCache: Scanning file cache for directory 'C:/LJS/IM03_ThirdPersonBP/Content/Collections/' took 0.00s
+[2024.08.09-09.13.33:080][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 3427 classes and 821 folders.
+[2024.08.09-09.13.33:082][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2024.08.09-09.13.33:142][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2024.08.09-09.13.33:145][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2024.08.09-09.13.33:315][  0]LogSlate: Took 0.000909 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.08.09-09.13.33:320][  0]LogSlate: Took 0.001604 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2024.08.09-09.13.33:322][  0]LogSlate: Took 0.001496 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2024.08.09-09.13.33:322][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.08.09-09.13.33:325][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.08.09-09.13.33:325][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.08.09-09.13.33:358][  0]LogSlate: Took 0.001392 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2024.08.09-09.13.33:502][  0]LogRenderer: Reallocating scene render targets to support 1124x556 Format 10 NumSamples 1 (Frame:1).
+[2024.08.09-09.13.33:610][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2024.08.09-09.13.33:610][  0]LogLoad: (Engine Initialization) Total time: 8.89 seconds
+[2024.08.09-09.13.33:610][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2024.08.09-09.13.33:651][  0]LogAssetRegistry: Asset discovery search completed in 5.3378 seconds
+[2024.08.09-09.13.33:655][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2024.08.09-09.13.33:678][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.08.09-09.13.33:708][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.08.09-09.13.34:631][105]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.08.09-09.13.36:053][222]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemies/BP_Enemy.BP_Enemy
+[2024.08.09-09.13.36:259][222]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2024.08.09-09.13.37:022][222]LogSlate: Took 0.000328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.08.09-09.13.37:060][223]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.08.09-09.13.57:771][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.13.57:823][493]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_EnemyAE94213D43875CB0F2787E8DB0926DFB.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.13.57:838][493]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.13.57:838][493]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.13.59:105][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.13.59:151][634]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_Enemy47531FB34C6F8C845EAC09B68506B00B.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.13.59:164][634]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.13.59:164][634]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.14.20:580][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.14.20:631][122]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_Enemy7D957D5D4B3BD8E0E302FC9BDFDE014F.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.14.20:643][122]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.14.20:643][122]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.14.23:486][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.14.23:532][442]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_Enemy4068FD5F442C31565D53FABD2C161D88.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.14.23:543][442]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.14.23:543][442]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.14.30:035][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.14.30:081][164]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_EnemyE187451447665E3F784208ADC0CD8433.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.14.30:094][164]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.14.30:094][164]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.14.33:128][527]LogEditorTransaction: Undo 노드 이동
+[2024.08.09-09.14.49:259][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.14.49:310][308]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_EnemyE179DE214D9D0B9F4A9DA9A0CED7D932.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.14.49:323][308]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.14.49:323][308]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.14.52:855][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.14.52:901][674]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_Enemy474115514AB9F0372F830BBA15564CF5.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.14.52:914][674]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.14.52:914][674]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.16.31:676][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.16.31:728][301]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_Enemy54C5E3514D635564D81094BB9234D58E.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.16.31:741][301]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.16.31:741][301]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.16.44:416][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.16.44:469][735]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_Enemy171E118441CADECB14CD9C80DA72EEE0.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.16.44:481][735]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.16.44:481][735]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.18.08:044][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.18.08:098][461]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_Enemy8D9D18BB431A1937504741B3DE134033.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.18.08:116][461]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.18.08:116][461]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.18.11:315][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.18.11:364][833]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_Enemy9171DDBD42A122E59B6E67B6BA340BCF.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.18.11:376][833]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.18.11:376][833]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.18.36:726][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.18.36:778][648]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_EnemyC9DFF1004851556DEDCDCB9BD7C4EC0E.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.18.36:792][648]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.18.36:792][648]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.18.58:862][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.18.58:916][132]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_EnemyD22845A743BD8BE43C87639E039B2084.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.18.58:930][132]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.18.58:930][132]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.19.15:258][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.19.15:310][999]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_EnemyAF856EF949281899EA32BC9DD077F6E8.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.19.15:323][999]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.19.15:323][999]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.19.21:521][724]LogTemp: Repeating last play command: 선택된 뷰포트
+[2024.08.09-09.19.21:531][724]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2024.08.09-09.19.21:534][724]LogPlayLevel: [PlayLevel] Compiling BP_Enemy before play...
+[2024.08.09-09.19.21:594][724]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2024.08.09-09.19.21:595][724]LogPlayLevel: PlayLevel: Blueprint regeneration took 64 ms (1 blueprints)
+[2024.08.09-09.19.21:596][724]PIE: New page: PIE 세션: Demo (2024. 8. 10. 오전 3:19:21)
+[2024.08.09-09.19.21:597][724]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2024.08.09-09.19.21:598][724]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2024.08.09-09.19.21:599][724]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.19.21:756][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.157858s)
+[2024.08.09-09.19.21:757][724]LogAIModule: Creating AISystem for world Demo
+[2024.08.09-09.19.21:757][724]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022D103D0600), frame # 39724
+[2024.08.09-09.19.21:757][724]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022D243AAE80), frame # 39724
+[2024.08.09-09.19.21:757][724]LogPlayLevel: PIE: World Init took: (0.001346s)
+[2024.08.09-09.19.21:757][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Demo.Demo to /Game/Maps/UEDPIE_0_Demo.Demo (0.159376s)
+[2024.08.09-09.19.21:776][724]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.08.09-09.19.21:777][724]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.09-09.19.21:777][724]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.09-09.19.21:777][724]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.09-09.19.21:777][724]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.09-09.19.21:777][724]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.09-09.19.21:777][724]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.09-09.19.21:777][724]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.09-09.19.21:777][724]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.09-09.19.21:777][724]LogAudio: Display: Using built-in audio occlusion.
+[2024.08.09-09.19.21:777][724]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.09-09.19.21:779][724]LogAudioMixer: Display: Using Audio Device Unknown
+[2024.08.09-09.19.21:779][724]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.09-09.19.21:779][724]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.09-09.19.21:779][724]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.09-09.19.21:780][724]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.09-09.19.21:781][724]LogInit: FAudioDevice initialized.
+[2024.08.09-09.19.21:795][724]LogLoad: Game class is 'GameModeBase'
+[2024.08.09-09.19.21:939][724]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Demo.Demo up for play (max tick rate 0) at 2024.08.09-18.19.21
+[2024.08.09-09.19.21:942][724]LogWorld: Bringing up level for play took: 0.145440
+[2024.08.09-09.19.21:942][724]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2024.08.09-09.19.21:954][724]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2024.08.09-09.19.21:956][724]PIE: 서버가 로그인했습니다.
+[2024.08.09-09.19.21:957][724]PIE: 에디터에서 플레이 총 시작 시간 0.428초입니다.
+[2024.08.09-09.19.28:152][394]PIE: Warning: BP_Enemy_2.CharacterMesh0 SK_Mannequin 에 '피직스 시뮬레이션' 옵션이 켜져있어야 힘 추가 가능합니다. 
+[2024.08.09-09.19.33:477][  2]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.19.33:477][  2]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.19.33:478][  2]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2024.08.09-09.19.33:509][  2]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.19.33:521][  2]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.09-09.19.33:530][  2]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.19.33:581][  2]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.19.33:628][  2]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022D103D0600), frame # 41002
+[2024.08.09-09.19.33:628][  2]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022D243AAE80), frame # 41002
+[2024.08.09-09.19.33:631][  2]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2024.08.09-09.19.33:819][  3]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2024.08.09-09.19.54:813][673]LogRenderer: Reallocating scene render targets to support 1144x712 Format 10 NumSamples 1 (Frame:1).
+[2024.08.09-09.20.12:217][615]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2024.08.09-09.20.12:333][615]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2024.08.09-09.20.12:762][615]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.09-09.20.12:794][615]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2024.08.09-09.20.12:926][615]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2024.08.09-09.20.13:652][616]LogRenderer: Reallocating scene render targets to support 1144x884 Format 10 NumSamples 1 (Frame:1).
+[2024.08.09-09.22.23:478][994]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.22.23:492][994]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.22.37:957][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.22.38:010][194]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_Enemy3B578621419EB733A9BC7AAEA01FC964.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.22.38:027][194]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.22.38:027][194]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.23.15:141][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.23.15:194][272]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_EnemyBBCBEA6B4B0068FD64C65C9419316F79.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.23.15:210][272]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.23.15:210][272]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.23.16:000][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.23.16:051][335]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_EnemyBF716AD4429670A05BA2BFB34AE59311.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.23.16:066][335]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.23.16:066][335]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.23.32:569][427]LogEditorTransaction: Undo 연결 정돈
+[2024.08.09-09.23.32:648][427]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.09-09.23.34:843][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.23.34:897][576]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_EnemyE681AFC9432865F5781690B9BF76B6B6.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.23.34:915][576]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.23.34:915][576]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.23.43:468][276]LogEditorTransaction: Undo 연결 정돈
+[2024.08.09-09.23.43:546][276]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.09-09.23.46:773][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.23.46:827][509]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_Enemy32E2C9074F519C08772391B75F8F8CC3.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.23.46:842][509]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.23.46:842][509]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.23.47:518][553]Cmd: TRANSACTION UNDO
+[2024.08.09-09.23.47:518][553]LogEditorTransaction: Undo 연결 정돈
+[2024.08.09-09.23.47:597][553]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.09-09.23.50:579][743]LogEditorTransaction: Undo 연결 정돈
+[2024.08.09-09.23.50:658][743]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.09-09.23.52:025][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.23.52:080][830]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_Enemy1CAEC6044F2B352388FC988742A76C7B.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.23.52:098][830]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.23.52:098][830]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.23.54:744][ 59]LogTemp: Repeating last play command: 선택된 뷰포트
+[2024.08.09-09.23.54:757][ 59]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2024.08.09-09.23.54:759][ 59]LogPlayLevel: [PlayLevel] Compiling BP_Enemy before play...
+[2024.08.09-09.23.54:895][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2024.08.09-09.23.54:896][ 59]LogPlayLevel: PlayLevel: Blueprint regeneration took 140 ms (1 blueprints)
+[2024.08.09-09.23.54:896][ 59]PIE: New page: PIE 세션: Demo (2024. 8. 10. 오전 3:23:54)
+[2024.08.09-09.23.54:896][ 59]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.23.55:052][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.155656s)
+[2024.08.09-09.23.55:053][ 59]LogAIModule: Creating AISystem for world Demo
+[2024.08.09-09.23.55:053][ 59]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022D1D3AE800), frame # 59059
+[2024.08.09-09.23.55:053][ 59]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022D77E1FEC0), frame # 59059
+[2024.08.09-09.23.55:053][ 59]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2024.08.09-09.23.55:054][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Demo.Demo to /Game/Maps/UEDPIE_0_Demo.Demo (0.156733s)
+[2024.08.09-09.23.55:108][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   6.64ms
+[2024.08.09-09.23.55:109][ 59]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.09-09.23.55:109][ 59]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.09-09.23.55:109][ 59]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.09-09.23.55:109][ 59]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.09-09.23.55:109][ 59]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.09-09.23.55:109][ 59]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.09-09.23.55:109][ 59]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.09-09.23.55:109][ 59]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.09-09.23.55:109][ 59]LogAudio: Display: Using built-in audio occlusion.
+[2024.08.09-09.23.55:109][ 59]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.09-09.23.55:113][ 59]LogAudioMixer: Display: Using Audio Device Unknown
+[2024.08.09-09.23.55:113][ 59]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.09-09.23.55:113][ 59]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.09-09.23.55:113][ 59]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.09-09.23.55:114][ 59]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.09-09.23.55:116][ 59]LogInit: FAudioDevice initialized.
+[2024.08.09-09.23.55:135][ 59]LogLoad: Game class is 'GameModeBase'
+[2024.08.09-09.23.55:257][ 59]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.23.55:258][ 59]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.23.55:258][ 59]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Demo.Demo up for play (max tick rate 0) at 2024.08.09-18.23.55
+[2024.08.09-09.23.55:262][ 59]LogWorld: Bringing up level for play took: 0.124814
+[2024.08.09-09.23.55:262][ 59]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2024.08.09-09.23.55:265][ 59]PIE: 서버가 로그인했습니다.
+[2024.08.09-09.23.55:265][ 59]PIE: 에디터에서 플레이 총 시작 시간 0.513초입니다.
+[2024.08.09-09.23.59:881][573]LogParticles: Error: Bad values in FParticleSystemSceneProxy::GetObjectPositionAndScale
+[2024.08.09-09.23.59:881][573]LogParticles: Error: SystemPositionForMacroUVs: {-999350.000000, -184.775864, 43.656155}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: ObjectPostProjectionPositionWithW: {-184.250000, -747.562500, 10.000000, 0.031250}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: RightPostProjectionPosition: {15.750000, -747.625000, 10.000000, 0.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: UpPostProjectionPosition: {-184.312500, -344.000000, 10.000000, 0.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: ObjectNDCPosition: {-5896.000000, -23922.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: RightNDCPosX: inf
+[2024.08.09-09.23.59:881][573]LogParticles: Error: UpNDCPosY: -inf
+[2024.08.09-09.23.59:881][573]LogParticles: Error: MacroUVPosition: {-999350.000000, -184.775864, 43.656155}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: MacroUVRadius: 200.000000
+[2024.08.09-09.23.59:881][573]LogParticles: Error: DX: 2097152.000000
+[2024.08.09-09.23.59:881][573]LogParticles: Error: DY: -inf
+[2024.08.09-09.23.59:881][573]LogParticles: Error: View0: {0.849677, 0.527303, 0.000000, 1.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: View1: {0.321280, -0.517698, 0.792949, 1.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: View2: {0.418125, -0.673751, -0.609288, 1.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: View3: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: ViewProj0: {0.849805, 0.527097, -0.000187, 1.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: ViewProj1: {0.648120, -1.044357, 1.600476, 1.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: ViewProj2: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: ViewProj3: {0.418125, -0.673751, -0.609288, 1.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: Bad values in FParticleSystemSceneProxy::GetObjectPositionAndScale
+[2024.08.09-09.23.59:881][573]LogParticles: Error: SystemPositionForMacroUVs: {-999350.000000, -184.775864, 43.656155}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: ObjectPostProjectionPositionWithW: {-184.250000, -747.562500, 10.000000, 0.031250}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: RightPostProjectionPosition: {15.750000, -747.625000, 10.000000, 0.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: UpPostProjectionPosition: {-184.312500, -344.000000, 10.000000, 0.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: ObjectNDCPosition: {-5896.000000, -23922.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: RightNDCPosX: inf
+[2024.08.09-09.23.59:881][573]LogParticles: Error: UpNDCPosY: -inf
+[2024.08.09-09.23.59:881][573]LogParticles: Error: MacroUVPosition: {-999350.000000, -184.775864, 43.656155}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: MacroUVRadius: 200.000000
+[2024.08.09-09.23.59:881][573]LogParticles: Error: DX: 2097152.000000
+[2024.08.09-09.23.59:881][573]LogParticles: Error: DY: -inf
+[2024.08.09-09.23.59:881][573]LogParticles: Error: View0: {0.849677, 0.527303, 0.000000, 1.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: View1: {0.321280, -0.517698, 0.792949, 1.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: View2: {0.418125, -0.673751, -0.609288, 1.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: View3: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: ViewProj0: {0.849805, 0.527097, -0.000187, 1.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: ViewProj1: {0.648120, -1.044357, 1.600476, 1.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: ViewProj2: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: ViewProj3: {0.418125, -0.673751, -0.609288, 1.000000}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: Bad values in FParticleSystemSceneProxy::GetObjectPositionAndScale
+[2024.08.09-09.23.59:881][573]LogParticles: Error: SystemPositionForMacroUVs: {-999350.000000, -184.775864, 43.656155}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: ObjectPostProjectionPositionWithW: {-184.250000, -747.562500, 10.000000, 0.031250}
+[2024.08.09-09.23.59:881][573]LogParticles: Error: RightPostProjectionPosition: {15.750000, -747.625000, 10.000000, 0.000000}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: UpPostProjectionPosition: {-184.312500, -344.000000, 10.000000, 0.000000}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: ObjectNDCPosition: {-5896.000000, -23922.000000}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: RightNDCPosX: inf
+[2024.08.09-09.23.59:882][573]LogParticles: Error: UpNDCPosY: -inf
+[2024.08.09-09.23.59:882][573]LogParticles: Error: MacroUVPosition: {-999350.000000, -184.775864, 43.656155}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: MacroUVRadius: 200.000000
+[2024.08.09-09.23.59:882][573]LogParticles: Error: DX: 2097152.000000
+[2024.08.09-09.23.59:882][573]LogParticles: Error: DY: -inf
+[2024.08.09-09.23.59:882][573]LogParticles: Error: View0: {0.849677, 0.527303, 0.000000, 1.000000}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: View1: {0.321280, -0.517698, 0.792949, 1.000000}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: View2: {0.418125, -0.673751, -0.609288, 1.000000}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: View3: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: ViewProj0: {0.849805, 0.527097, -0.000187, 1.000000}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: ViewProj1: {0.648120, -1.044357, 1.600476, 1.000000}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: ViewProj2: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: ViewProj3: {0.418125, -0.673751, -0.609288, 1.000000}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: Bad values in FParticleSystemSceneProxy::GetObjectPositionAndScale
+[2024.08.09-09.23.59:882][573]LogParticles: Error: SystemPositionForMacroUVs: {-999350.000000, -184.775864, 43.656155}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: ObjectPostProjectionPositionWithW: {-184.250000, -747.562500, 10.000000, 0.031250}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: RightPostProjectionPosition: {15.750000, -747.625000, 10.000000, 0.000000}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: UpPostProjectionPosition: {-184.312500, -344.000000, 10.000000, 0.000000}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: ObjectNDCPosition: {-5896.000000, -23922.000000}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: RightNDCPosX: inf
+[2024.08.09-09.23.59:882][573]LogParticles: Error: UpNDCPosY: -inf
+[2024.08.09-09.23.59:882][573]LogParticles: Error: MacroUVPosition: {-999350.000000, -184.775864, 43.656155}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: MacroUVRadius: 200.000000
+[2024.08.09-09.23.59:882][573]LogParticles: Error: DX: 2097152.000000
+[2024.08.09-09.23.59:882][573]LogParticles: Error: DY: -inf
+[2024.08.09-09.23.59:882][573]LogParticles: Error: View0: {0.849677, 0.527303, 0.000000, 1.000000}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: View1: {0.321280, -0.517698, 0.792949, 1.000000}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: View2: {0.418125, -0.673751, -0.609288, 1.000000}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: View3: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: ViewProj0: {0.849805, 0.527097, -0.000187, 1.000000}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: ViewProj1: {0.648120, -1.044357, 1.600476, 1.000000}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: ViewProj2: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.23.59:882][573]LogParticles: Error: ViewProj3: {0.418125, -0.673751, -0.609288, 1.000000}
+[2024.08.09-09.24.01:937][819]PIE: Warning: BP_Enemy_2.CharacterMesh0 SK_Mannequin 에 '피직스 시뮬레이션' 옵션이 켜져있어야 힘 추가 가능합니다. 
+[2024.08.09-09.24.03:997][ 55]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.24.03:997][ 55]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.24.03:997][ 55]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2024.08.09-09.24.04:020][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.24.04:036][ 55]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.09-09.24.04:046][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.24.04:073][ 55]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.24.04:110][ 55]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022D77E1FEC0), frame # 60055
+[2024.08.09-09.24.04:110][ 55]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022D1D3AE800), frame # 60055
+[2024.08.09-09.24.04:120][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2024.08.09-09.24.04:276][ 56]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.08.09-09.24.22:441][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.24.22:496][996]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_Enemy1B8B22E447CB9AF1981D0D815F8ED8D5.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.24.22:509][996]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.24.22:509][996]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.24.31:876][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.24.31:931][903]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_EnemyE499F7244F76B290A053A0A36FDCD692.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.24.31:944][903]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.24.31:944][903]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.25.04:282][976]LogEditorTransaction: Undo 클립보드 내용을 붙여넣습니다.
+[2024.08.09-09.25.04:358][976]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.09-09.25.04:480][978]LogEditorTransaction: Undo 클립보드 내용을 붙여넣습니다.
+[2024.08.09-09.25.04:554][978]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.09-09.25.07:489][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.25.07:544][199]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_Enemy24232B4D423BB4911C973A83BB302A7B.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.25.07:560][199]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.25.07:561][199]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.25.08:986][360]LogTemp: Repeating last play command: 선택된 뷰포트
+[2024.08.09-09.25.08:999][360]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2024.08.09-09.25.09:001][360]LogPlayLevel: [PlayLevel] Compiling BP_Enemy before play...
+[2024.08.09-09.25.09:064][360]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2024.08.09-09.25.09:066][360]LogPlayLevel: PlayLevel: Blueprint regeneration took 67 ms (1 blueprints)
+[2024.08.09-09.25.09:066][360]PIE: New page: PIE 세션: Demo (2024. 8. 10. 오전 3:25:09)
+[2024.08.09-09.25.09:099][360]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.25.09:281][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.182799s)
+[2024.08.09-09.25.09:282][360]LogAIModule: Creating AISystem for world Demo
+[2024.08.09-09.25.09:282][360]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022D38D2B000), frame # 66360
+[2024.08.09-09.25.09:282][360]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022D198A4E00), frame # 66360
+[2024.08.09-09.25.09:282][360]LogPlayLevel: PIE: World Init took: (0.001153s)
+[2024.08.09-09.25.09:282][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Demo.Demo to /Game/Maps/UEDPIE_0_Demo.Demo (0.184223s)
+[2024.08.09-09.25.09:306][360]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2024.08.09-09.25.09:306][360]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.09-09.25.09:306][360]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.09-09.25.09:306][360]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.09-09.25.09:306][360]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.09-09.25.09:306][360]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.09-09.25.09:306][360]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.09-09.25.09:306][360]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.09-09.25.09:306][360]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.09-09.25.09:307][360]LogAudio: Display: Using built-in audio occlusion.
+[2024.08.09-09.25.09:307][360]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.09-09.25.09:309][360]LogAudioMixer: Display: Using Audio Device Unknown
+[2024.08.09-09.25.09:309][360]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.09-09.25.09:309][360]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.09-09.25.09:309][360]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.09-09.25.09:309][360]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.09-09.25.09:311][360]LogInit: FAudioDevice initialized.
+[2024.08.09-09.25.09:315][360]LogLoad: Game class is 'GameModeBase'
+[2024.08.09-09.25.09:453][360]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.25.09:453][360]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.25.09:454][360]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Demo.Demo up for play (max tick rate 0) at 2024.08.09-18.25.09
+[2024.08.09-09.25.09:458][360]LogWorld: Bringing up level for play took: 0.141818
+[2024.08.09-09.25.09:458][360]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2024.08.09-09.25.09:461][360]PIE: 서버가 로그인했습니다.
+[2024.08.09-09.25.09:461][360]PIE: 에디터에서 플레이 총 시작 시간 0.466초입니다.
+[2024.08.09-09.25.10:634][466]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.25.10:638][466]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.25.11:761][601]Set new viewmode: Unlit
+[2024.08.09-09.25.12:777][723]Set new viewmode: Lit
+[2024.08.09-09.25.14:201][871]Set new viewmode: Lit_DetailLighting
+[2024.08.09-09.25.14:201][871]Set new viewmode: Lit
+[2024.08.09-09.25.14:530][899]Set new viewmode: Lit_DetailLighting
+[2024.08.09-09.25.14:916][930]Set new viewmode: Lit_DetailLighting
+[2024.08.09-09.25.15:141][948]Set new viewmode: Lit
+[2024.08.09-09.25.15:592][985]Set new viewmode: Lit_DetailLighting
+[2024.08.09-09.25.15:911][ 11]Set new viewmode: Lit
+[2024.08.09-09.25.22:880][812]PIE: Warning: BP_Enemy_2.CharacterMesh0 SK_Mannequin 에 '피직스 시뮬레이션' 옵션이 켜져있어야 힘 추가 가능합니다. 
+[2024.08.09-09.25.24:592][  6]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.25.24:593][  6]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.25.24:594][  6]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2024.08.09-09.25.24:626][  6]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.25.24:641][  6]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.09-09.25.24:649][  6]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.25.24:696][  6]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.25.24:752][  6]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022D198A4E00), frame # 68006
+[2024.08.09-09.25.24:752][  6]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022D38D2B000), frame # 68006
+[2024.08.09-09.25.24:757][  6]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2024.08.09-09.25.24:872][  7]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.08.09-09.26.00:483][139]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/Character/Mesh/SK_Mannequin_PhysicsAsset.SK_Mannequin_PhysicsAsset
+[2024.08.09-09.26.00:570][139]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0003 seconds. Added 8 classes and 3 folders.
+[2024.08.09-09.26.00:596][139]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2024.08.09-09.26.27:347][462]LogEditorViewport: Clicking on Actor (LMB): BP_Enemy_C (BP_Enemy)
+[2024.08.09-09.27.06:261][617]LogTemp: Repeating last play command: 선택된 뷰포트
+[2024.08.09-09.27.06:279][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.09-09.27.06:279][617]PIE: New page: PIE 세션: Demo (2024. 8. 10. 오전 3:27:06)
+[2024.08.09-09.27.06:279][617]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.27.06:438][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.159447s)
+[2024.08.09-09.27.06:438][617]LogAIModule: Creating AISystem for world Demo
+[2024.08.09-09.27.06:439][617]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022D1BFC3800), frame # 74617
+[2024.08.09-09.27.06:439][617]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022D13604180), frame # 74617
+[2024.08.09-09.27.06:439][617]LogPlayLevel: PIE: World Init took: (0.001060s)
+[2024.08.09-09.27.06:439][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Demo.Demo to /Game/Maps/UEDPIE_0_Demo.Demo (0.160618s)
+[2024.08.09-09.27.06:502][617]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2024.08.09-09.27.06:504][617]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.09-09.27.06:504][617]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.09-09.27.06:504][617]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.09-09.27.06:504][617]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.09-09.27.06:504][617]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.09-09.27.06:504][617]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.09-09.27.06:504][617]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.09-09.27.06:504][617]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.09-09.27.06:504][617]LogAudio: Display: Using built-in audio occlusion.
+[2024.08.09-09.27.06:504][617]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.09-09.27.06:506][617]LogAudioMixer: Display: Using Audio Device Unknown
+[2024.08.09-09.27.06:506][617]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.09-09.27.06:506][617]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.09-09.27.06:506][617]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.09-09.27.06:507][617]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.09-09.27.06:508][617]LogInit: FAudioDevice initialized.
+[2024.08.09-09.27.06:515][617]LogLoad: Game class is 'GameModeBase'
+[2024.08.09-09.27.06:634][617]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.27.06:635][617]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.27.06:636][617]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Demo.Demo up for play (max tick rate 0) at 2024.08.09-18.27.06
+[2024.08.09-09.27.06:639][617]LogWorld: Bringing up level for play took: 0.122969
+[2024.08.09-09.27.06:639][617]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2024.08.09-09.27.06:642][617]PIE: 서버가 로그인했습니다.
+[2024.08.09-09.27.06:642][617]PIE: 에디터에서 플레이 총 시작 시간 0.373초입니다.
+[2024.08.09-09.27.14:221][499]PIE: Warning: BP_Enemy_2.CharacterMesh0 SK_Mannequin 에 '피직스 시뮬레이션' 옵션이 켜져있어야 힘 추가 가능합니다. 
+[2024.08.09-09.27.16:051][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.27.16:052][714]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.27.16:054][714]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2024.08.09-09.27.16:090][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.27.16:100][714]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.09-09.27.16:106][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.27.16:129][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.27.16:215][714]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022D1BFC3800), frame # 75714
+[2024.08.09-09.27.16:215][714]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022D13604180), frame # 75714
+[2024.08.09-09.27.16:218][714]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2024.08.09-09.27.16:306][715]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.08.09-09.27.18:150][885]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.27.18:164][885]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.27.18:967][981]LogTemp: Repeating last play command: 선택된 뷰포트
+[2024.08.09-09.27.18:977][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.09-09.27.18:977][981]PIE: New page: PIE 세션: Demo (2024. 8. 10. 오전 3:27:18)
+[2024.08.09-09.27.18:977][981]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.27.19:132][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.154329s)
+[2024.08.09-09.27.19:133][981]LogAIModule: Creating AISystem for world Demo
+[2024.08.09-09.27.19:133][981]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022D330A0200), frame # 75981
+[2024.08.09-09.27.19:133][981]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022D19230E00), frame # 75981
+[2024.08.09-09.27.19:134][981]LogPlayLevel: PIE: World Init took: (0.001281s)
+[2024.08.09-09.27.19:134][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Demo.Demo to /Game/Maps/UEDPIE_0_Demo.Demo (0.155782s)
+[2024.08.09-09.27.19:156][981]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2024.08.09-09.27.19:158][981]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.09-09.27.19:158][981]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.09-09.27.19:158][981]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.09-09.27.19:158][981]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.09-09.27.19:158][981]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.09-09.27.19:158][981]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.09-09.27.19:158][981]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.09-09.27.19:158][981]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.09-09.27.19:158][981]LogAudio: Display: Using built-in audio occlusion.
+[2024.08.09-09.27.19:158][981]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.09-09.27.19:160][981]LogAudioMixer: Display: Using Audio Device Unknown
+[2024.08.09-09.27.19:160][981]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.09-09.27.19:160][981]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.09-09.27.19:160][981]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.09-09.27.19:160][981]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.09-09.27.19:162][981]LogInit: FAudioDevice initialized.
+[2024.08.09-09.27.19:166][981]LogLoad: Game class is 'GameModeBase'
+[2024.08.09-09.27.19:284][981]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.27.19:284][981]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.27.19:285][981]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Demo.Demo up for play (max tick rate 0) at 2024.08.09-18.27.19
+[2024.08.09-09.27.19:289][981]LogWorld: Bringing up level for play took: 0.121741
+[2024.08.09-09.27.19:289][981]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2024.08.09-09.27.19:291][981]PIE: 서버가 로그인했습니다.
+[2024.08.09-09.27.19:292][981]PIE: 에디터에서 플레이 총 시작 시간 0.315초입니다.
+[2024.08.09-09.27.19:980][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.27.19:980][ 49]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.27.19:982][ 49]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2024.08.09-09.27.20:015][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.27.20:020][ 49]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.09-09.27.20:025][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.27.20:056][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.27.20:065][ 49]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022D19230E00), frame # 76049
+[2024.08.09-09.27.20:065][ 49]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022D330A0200), frame # 76049
+[2024.08.09-09.27.20:072][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2024.08.09-09.27.20:205][ 50]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.08.09-09.28.10:326][880]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2024.08.09-09.28.10:333][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Demo" FILE="C:/LJS/IM03_ThirdPersonBP/Saved/Autosaves/Game/Maps/Demo_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.08.09-09.28.11:085][880]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/Demo_Auto1775A363848311F2F75C510A17652D5D0.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Saved/Autosaves/Game/Maps/Demo_Auto1.umap'
+[2024.08.09-09.28.11:090][880]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Demo' took 0.787
+[2024.08.09-09.28.11:090][880]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.787
+[2024.08.09-09.28.36:701][813]BlueprintLog: New page: BP_Enemy 컴파일
+[2024.08.09-09.28.36:813][813]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2024.08.09-09.28.37:437][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.28.37:491][845]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_EnemyAEAED12A4DE953E47D7C93B161830AA4.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.28.37:507][845]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.28.37:507][845]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.28.43:164][228]LogTemp: Repeating last play command: 선택된 뷰포트
+[2024.08.09-09.28.43:177][228]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.09-09.28.43:177][228]PIE: New page: PIE 세션: Demo (2024. 8. 10. 오전 3:28:43)
+[2024.08.09-09.28.43:177][228]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.28.43:332][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.154862s)
+[2024.08.09-09.28.43:333][228]LogAIModule: Creating AISystem for world Demo
+[2024.08.09-09.28.43:333][228]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022D3187C800), frame # 82228
+[2024.08.09-09.28.43:333][228]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022D39818900), frame # 82228
+[2024.08.09-09.28.43:334][228]LogPlayLevel: PIE: World Init took: (0.001310s)
+[2024.08.09-09.28.43:334][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Demo.Demo to /Game/Maps/UEDPIE_0_Demo.Demo (0.156325s)
+[2024.08.09-09.28.43:356][228]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2024.08.09-09.28.43:359][228]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.09-09.28.43:359][228]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.09-09.28.43:359][228]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.09-09.28.43:359][228]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.09-09.28.43:359][228]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.09-09.28.43:359][228]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.09-09.28.43:359][228]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.09-09.28.43:359][228]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.09-09.28.43:359][228]LogAudio: Display: Using built-in audio occlusion.
+[2024.08.09-09.28.43:359][228]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.09-09.28.43:361][228]LogAudioMixer: Display: Using Audio Device Unknown
+[2024.08.09-09.28.43:361][228]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.09-09.28.43:361][228]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.09-09.28.43:361][228]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.09-09.28.43:361][228]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.09-09.28.43:363][228]LogInit: FAudioDevice initialized.
+[2024.08.09-09.28.43:371][228]LogLoad: Game class is 'GameModeBase'
+[2024.08.09-09.28.43:488][228]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.28.43:489][228]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.28.43:490][228]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Demo.Demo up for play (max tick rate 0) at 2024.08.09-18.28.43
+[2024.08.09-09.28.43:493][228]LogWorld: Bringing up level for play took: 0.121572
+[2024.08.09-09.28.43:493][228]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2024.08.09-09.28.43:496][228]PIE: 서버가 로그인했습니다.
+[2024.08.09-09.28.43:496][228]PIE: 에디터에서 플레이 총 시작 시간 0.323초입니다.
+[2024.08.09-09.28.44:114][289]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.28.44:120][289]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.28.51:124][ 95]PIE: Warning: BP_Enemy_2.CharacterMesh0 SK_Mannequin 에 '피직스 시뮬레이션' 옵션이 켜져있어야 힘 추가 가능합니다. 
+[2024.08.09-09.28.52:414][241]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.28.52:415][241]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.28.52:416][241]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2024.08.09-09.28.52:448][241]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.28.52:466][241]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.09-09.28.52:474][241]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.28.52:516][241]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.28.52:524][241]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022D39818900), frame # 83241
+[2024.08.09-09.28.52:524][241]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022D3187C800), frame # 83241
+[2024.08.09-09.28.52:534][241]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2024.08.09-09.28.52:676][242]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.08.09-09.28.55:806][586]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.28.55:812][586]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.29.49:405][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/SK_Mannequin" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Character/Mesh/SK_Mannequin.uasset" SILENT=true
+[2024.08.09-09.29.49:547][962]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/SK_Mannequin3D41B91C4639F3266CAFD881FC0971EF.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Character/Mesh/SK_Mannequin.uasset'
+[2024.08.09-09.29.49:564][962]AssetCheck: New page: 애셋 저장: SK_Mannequin
+[2024.08.09-09.29.49:564][962]LogContentValidation: Display: SkeletalMesh /Game/Character/Mesh/SK_Mannequin.SK_Mannequin 유효성 검사
+[2024.08.09-09.29.54:275][339]LogTemp: Repeating last play command: 선택된 뷰포트
+[2024.08.09-09.29.54:285][339]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.09-09.29.54:285][339]PIE: New page: PIE 세션: Demo (2024. 8. 10. 오전 3:29:54)
+[2024.08.09-09.29.54:285][339]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.29.54:440][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.155250s)
+[2024.08.09-09.29.54:441][339]LogAIModule: Creating AISystem for world Demo
+[2024.08.09-09.29.54:441][339]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022D15106A00), frame # 88339
+[2024.08.09-09.29.54:441][339]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022D56544680), frame # 88339
+[2024.08.09-09.29.54:441][339]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2024.08.09-09.29.54:441][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Demo.Demo to /Game/Maps/UEDPIE_0_Demo.Demo (0.156287s)
+[2024.08.09-09.29.54:464][339]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2024.08.09-09.29.54:470][339]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.09-09.29.54:470][339]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.09-09.29.54:470][339]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.09-09.29.54:470][339]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.09-09.29.54:470][339]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.09-09.29.54:470][339]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.09-09.29.54:470][339]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.09-09.29.54:470][339]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.09-09.29.54:470][339]LogAudio: Display: Using built-in audio occlusion.
+[2024.08.09-09.29.54:470][339]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.09-09.29.54:472][339]LogAudioMixer: Display: Using Audio Device Unknown
+[2024.08.09-09.29.54:472][339]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.09-09.29.54:472][339]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.09-09.29.54:472][339]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.09-09.29.54:472][339]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.09-09.29.54:474][339]LogInit: FAudioDevice initialized.
+[2024.08.09-09.29.54:483][339]LogLoad: Game class is 'GameModeBase'
+[2024.08.09-09.29.54:602][339]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.29.54:603][339]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.29.54:604][339]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Demo.Demo up for play (max tick rate 0) at 2024.08.09-18.29.54
+[2024.08.09-09.29.54:607][339]LogWorld: Bringing up level for play took: 0.123731
+[2024.08.09-09.29.54:607][339]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2024.08.09-09.29.54:610][339]PIE: 서버가 로그인했습니다.
+[2024.08.09-09.29.54:610][339]PIE: 에디터에서 플레이 총 시작 시간 0.327초입니다.
+[2024.08.09-09.30.00:122][967]PIE: Warning: BP_Enemy_2.CharacterMesh0 SK_Mannequin 에 '피직스 시뮬레이션' 옵션이 켜져있어야 힘 추가 가능합니다. 
+[2024.08.09-09.30.01:025][ 72]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.30.01:025][ 72]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.30.01:026][ 72]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2024.08.09-09.30.01:048][ 72]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.30.01:061][ 72]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.09-09.30.01:066][ 72]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.30.01:097][ 72]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.30.01:158][ 72]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022D56544680), frame # 89072
+[2024.08.09-09.30.01:159][ 72]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022D15106A00), frame # 89072
+[2024.08.09-09.30.01:164][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2024.08.09-09.30.01:273][ 73]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.08.09-09.30.14:461][584]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.30.14:467][584]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.30.43:066][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Demo" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Maps/Demo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.09-09.30.43:091][850]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2024.08.09-09.30.43:852][850]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/Demo462D52154DB1FACDC0F200A3E46D9C8A.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Maps/Demo.umap'
+[2024.08.09-09.30.43:875][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Demo_BuiltData" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Maps/Demo_BuiltData.uasset" SILENT=true
+[2024.08.09-09.30.43:903][850]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/Demo_BuiltData391C38AC4E9D63013BF52EAAFDB5E6CA.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Maps/Demo_BuiltData.uasset'
+[2024.08.09-09.30.43:969][850]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
+[2024.08.09-09.30.43:969][850]LogContentValidation: Display: World /Game/Maps/Demo.Demo 유효성 검사
+[2024.08.09-09.30.43:969][850]LogContentValidation: Display: MapBuildDataRegistry /Game/Maps/Demo_BuiltData.Demo_BuiltData 유효성 검사
+[2024.08.09-09.30.44:374][897]LogTemp: Repeating last play command: 선택된 뷰포트
+[2024.08.09-09.30.44:388][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.09-09.30.44:388][897]PIE: New page: PIE 세션: Demo (2024. 8. 10. 오전 3:30:44)
+[2024.08.09-09.30.44:416][897]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.30.44:597][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.180930s)
+[2024.08.09-09.30.44:598][897]LogAIModule: Creating AISystem for world Demo
+[2024.08.09-09.30.44:598][897]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022D1D3AD200), frame # 93897
+[2024.08.09-09.30.44:598][897]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022D1D8DC400), frame # 93897
+[2024.08.09-09.30.44:599][897]LogPlayLevel: PIE: World Init took: (0.001357s)
+[2024.08.09-09.30.44:599][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Demo.Demo to /Game/Maps/UEDPIE_0_Demo.Demo (0.182447s)
+[2024.08.09-09.30.44:623][897]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2024.08.09-09.30.44:624][897]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.09-09.30.44:624][897]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.09-09.30.44:624][897]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.09-09.30.44:624][897]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.09-09.30.44:624][897]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.09-09.30.44:624][897]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.09-09.30.44:624][897]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.09-09.30.44:624][897]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.09-09.30.44:624][897]LogAudio: Display: Using built-in audio occlusion.
+[2024.08.09-09.30.44:624][897]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.09-09.30.44:626][897]LogAudioMixer: Display: Using Audio Device Unknown
+[2024.08.09-09.30.44:626][897]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.09-09.30.44:626][897]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.09-09.30.44:626][897]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.09-09.30.44:627][897]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.09-09.30.44:629][897]LogInit: FAudioDevice initialized.
+[2024.08.09-09.30.44:636][897]LogLoad: Game class is 'GameModeBase'
+[2024.08.09-09.30.44:757][897]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.30.44:758][897]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.30.44:758][897]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Demo.Demo up for play (max tick rate 0) at 2024.08.09-18.30.44
+[2024.08.09-09.30.44:762][897]LogWorld: Bringing up level for play took: 0.125637
+[2024.08.09-09.30.44:762][897]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2024.08.09-09.30.44:765][897]PIE: 서버가 로그인했습니다.
+[2024.08.09-09.30.44:766][897]PIE: 에디터에서 플레이 총 시작 시간 0.383초입니다.
+[2024.08.09-09.30.53:357][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.30.53:357][908]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.30.53:358][908]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2024.08.09-09.30.53:389][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.30.53:399][908]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.09-09.30.53:405][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.30.53:435][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.30.53:445][908]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022D1D8DC400), frame # 94908
+[2024.08.09-09.30.53:445][908]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022D1D3AD200), frame # 94908
+[2024.08.09-09.30.53:451][908]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2024.08.09-09.30.53:607][909]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.08.09-09.31.02:034][897]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.31.02:038][897]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.31.08:190][121]LogEditorViewport: Clicking on Actor (LMB): BP_Enemy_C (BP_Enemy)
+[2024.08.09-09.31.17:702][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Demo" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Maps/Demo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.09-09.31.17:726][212]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2024.08.09-09.31.18:495][212]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/DemoBAE536884A2EB608B5234ABD2E354501.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Maps/Demo.umap'
+[2024.08.09-09.31.18:514][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Demo_BuiltData" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Maps/Demo_BuiltData.uasset" SILENT=true
+[2024.08.09-09.31.18:541][212]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/Demo_BuiltData8292722247B3B3B6CDB16989EE111386.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Maps/Demo_BuiltData.uasset'
+[2024.08.09-09.31.18:602][212]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
+[2024.08.09-09.31.18:602][212]LogContentValidation: Display: World /Game/Maps/Demo.Demo 유효성 검사
+[2024.08.09-09.31.18:602][212]LogContentValidation: Display: MapBuildDataRegistry /Game/Maps/Demo_BuiltData.Demo_BuiltData 유효성 검사
+[2024.08.09-09.32.15:036][945]LogTemp: Repeating last play command: 선택된 뷰포트
+[2024.08.09-09.32.15:049][945]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.09-09.32.15:049][945]PIE: New page: PIE 세션: Demo (2024. 8. 10. 오전 3:32:15)
+[2024.08.09-09.32.15:082][945]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.32.15:273][945]LogPlayLevel: PIE: StaticDuplicateObject took: (0.190527s)
+[2024.08.09-09.32.15:274][945]LogAIModule: Creating AISystem for world Demo
+[2024.08.09-09.32.15:274][945]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022D3359FE00), frame # 97945
+[2024.08.09-09.32.15:275][945]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022D0C92F100), frame # 97945
+[2024.08.09-09.32.15:275][945]LogPlayLevel: PIE: World Init took: (0.001676s)
+[2024.08.09-09.32.15:275][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Demo.Demo to /Game/Maps/UEDPIE_0_Demo.Demo (0.192559s)
+[2024.08.09-09.32.15:298][945]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2024.08.09-09.32.15:301][945]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.09-09.32.15:301][945]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.09-09.32.15:301][945]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.09-09.32.15:301][945]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.09-09.32.15:301][945]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.09-09.32.15:301][945]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.09-09.32.15:301][945]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.09-09.32.15:301][945]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.09-09.32.15:301][945]LogAudio: Display: Using built-in audio occlusion.
+[2024.08.09-09.32.15:301][945]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.09-09.32.15:303][945]LogAudioMixer: Display: Using Audio Device Unknown
+[2024.08.09-09.32.15:303][945]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.09-09.32.15:303][945]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.09-09.32.15:303][945]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.09-09.32.15:303][945]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.09-09.32.15:305][945]LogInit: FAudioDevice initialized.
+[2024.08.09-09.32.15:317][945]LogLoad: Game class is 'GameModeBase'
+[2024.08.09-09.32.15:443][945]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.32.15:443][945]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.32.15:444][945]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Demo.Demo up for play (max tick rate 0) at 2024.08.09-18.32.15
+[2024.08.09-09.32.15:448][945]LogWorld: Bringing up level for play took: 0.130094
+[2024.08.09-09.32.15:448][945]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2024.08.09-09.32.15:450][945]PIE: 서버가 로그인했습니다.
+[2024.08.09-09.32.15:451][945]PIE: 에디터에서 플레이 총 시작 시간 0.407초입니다.
+[2024.08.09-09.32.22:470][747]PIE: Warning: BP_Enemy_2.CharacterMesh0 SK_Mannequin 에 '피직스 시뮬레이션' 옵션이 켜져있어야 힘 추가 가능합니다. 
+[2024.08.09-09.32.23:527][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.32.23:528][868]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.32.23:529][868]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2024.08.09-09.32.23:565][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.32.23:577][868]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.09-09.32.23:583][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.32.23:604][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.32.23:632][868]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022D0C92F100), frame # 98868
+[2024.08.09-09.32.23:633][868]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022D3359FE00), frame # 98868
+[2024.08.09-09.32.23:639][868]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2024.08.09-09.32.23:771][869]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.08.09-09.32.24:843][976]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.32.24:847][976]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.32.26:087][124]LogEditorViewport: Clicking on Actor (LMB): BP_Enemy_C (BP_Enemy)
+[2024.08.09-09.32.35:845][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Demo" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Maps/Demo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.09-09.32.35:869][207]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.08.09-09.32.36:636][207]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/Demo2104FE9745F798592A668BA369A70D83.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Maps/Demo.umap'
+[2024.08.09-09.32.36:655][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Demo_BuiltData" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Maps/Demo_BuiltData.uasset" SILENT=true
+[2024.08.09-09.32.36:682][207]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/Demo_BuiltData721520934C097E9319409A9F3B5E08F4.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Maps/Demo_BuiltData.uasset'
+[2024.08.09-09.32.36:719][207]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
+[2024.08.09-09.32.36:719][207]LogContentValidation: Display: World /Game/Maps/Demo.Demo 유효성 검사
+[2024.08.09-09.32.36:719][207]LogContentValidation: Display: MapBuildDataRegistry /Game/Maps/Demo_BuiltData.Demo_BuiltData 유효성 검사
+[2024.08.09-09.32.40:310][620]LogTemp: Repeating last play command: 선택된 뷰포트
+[2024.08.09-09.32.40:324][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.09-09.32.40:324][620]PIE: New page: PIE 세션: Demo (2024. 8. 10. 오전 3:32:40)
+[2024.08.09-09.32.40:324][620]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.32.40:482][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.157487s)
+[2024.08.09-09.32.40:483][620]LogAIModule: Creating AISystem for world Demo
+[2024.08.09-09.32.40:483][620]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022D53D8E400), frame # 100620
+[2024.08.09-09.32.40:483][620]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022D138A8180), frame # 100620
+[2024.08.09-09.32.40:483][620]LogPlayLevel: PIE: World Init took: (0.001115s)
+[2024.08.09-09.32.40:483][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Demo.Demo to /Game/Maps/UEDPIE_0_Demo.Demo (0.158786s)
+[2024.08.09-09.32.40:507][620]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2024.08.09-09.32.40:509][620]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.09-09.32.40:509][620]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.09-09.32.40:509][620]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.09-09.32.40:509][620]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.09-09.32.40:509][620]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.09-09.32.40:509][620]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.09-09.32.40:509][620]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.09-09.32.40:509][620]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.09-09.32.40:510][620]LogAudio: Display: Using built-in audio occlusion.
+[2024.08.09-09.32.40:510][620]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.09-09.32.40:512][620]LogAudioMixer: Display: Using Audio Device Unknown
+[2024.08.09-09.32.40:512][620]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.09-09.32.40:512][620]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.09-09.32.40:512][620]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.09-09.32.40:512][620]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.09-09.32.40:514][620]LogInit: FAudioDevice initialized.
+[2024.08.09-09.32.40:523][620]LogLoad: Game class is 'GameModeBase'
+[2024.08.09-09.32.40:641][620]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.32.40:641][620]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.32.40:642][620]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Demo.Demo up for play (max tick rate 0) at 2024.08.09-18.32.40
+[2024.08.09-09.32.40:645][620]LogWorld: Bringing up level for play took: 0.121555
+[2024.08.09-09.32.40:646][620]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2024.08.09-09.32.40:648][620]PIE: 서버가 로그인했습니다.
+[2024.08.09-09.32.40:649][620]PIE: 에디터에서 플레이 총 시작 시간 0.33초입니다.
+[2024.08.09-09.32.48:659][536]PIE: Warning: BP_Enemy_2.CharacterMesh0 SK_Mannequin 에 '피직스 시뮬레이션' 옵션이 켜져있어야 힘 추가 가능합니다. 
+[2024.08.09-09.32.49:458][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.32.49:458][628]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.32.49:459][628]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2024.08.09-09.32.49:488][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.32.49:495][628]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.09-09.32.49:500][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.32.49:521][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.32.49:544][628]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022D138A8180), frame # 101628
+[2024.08.09-09.32.49:544][628]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022D53D8E400), frame # 101628
+[2024.08.09-09.32.49:551][628]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2024.08.09-09.32.49:687][629]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.08.09-09.32.50:734][730]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.32.50:739][730]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.32.51:865][861]LogEditorViewport: Clicking on Actor (LMB): BP_Enemy_C (BP_Enemy)
+[2024.08.09-09.32.56:196][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Demo" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Maps/Demo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.09-09.32.56:220][360]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2024.08.09-09.32.56:976][360]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/DemoFCE46FC542F767117B904289FBF511DB.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Maps/Demo.umap'
+[2024.08.09-09.32.56:994][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Demo_BuiltData" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Maps/Demo_BuiltData.uasset" SILENT=true
+[2024.08.09-09.32.57:022][360]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/Demo_BuiltDataE4ED27B14C61B5CBAC8CAE91F19B16D8.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Maps/Demo_BuiltData.uasset'
+[2024.08.09-09.32.57:083][360]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
+[2024.08.09-09.32.57:083][360]LogContentValidation: Display: World /Game/Maps/Demo.Demo 유효성 검사
+[2024.08.09-09.32.57:083][360]LogContentValidation: Display: MapBuildDataRegistry /Game/Maps/Demo_BuiltData.Demo_BuiltData 유효성 검사
+[2024.08.09-09.32.58:295][497]LogTemp: Repeating last play command: 선택된 뷰포트
+[2024.08.09-09.32.58:309][497]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.09-09.32.58:309][497]PIE: New page: PIE 세션: Demo (2024. 8. 10. 오전 3:32:58)
+[2024.08.09-09.32.58:309][497]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.32.58:469][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.160973s)
+[2024.08.09-09.32.58:470][497]LogAIModule: Creating AISystem for world Demo
+[2024.08.09-09.32.58:471][497]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022D53D8DE00), frame # 102497
+[2024.08.09-09.32.58:471][497]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022D135F0900), frame # 102497
+[2024.08.09-09.32.58:471][497]LogPlayLevel: PIE: World Init took: (0.001304s)
+[2024.08.09-09.32.58:471][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Demo.Demo to /Game/Maps/UEDPIE_0_Demo.Demo (0.162428s)
+[2024.08.09-09.32.58:494][497]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2024.08.09-09.32.58:496][497]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.09-09.32.58:496][497]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.09-09.32.58:496][497]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.09-09.32.58:496][497]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.09-09.32.58:496][497]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.09-09.32.58:496][497]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.09-09.32.58:496][497]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.09-09.32.58:496][497]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.09-09.32.58:496][497]LogAudio: Display: Using built-in audio occlusion.
+[2024.08.09-09.32.58:496][497]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.09-09.32.58:498][497]LogAudioMixer: Display: Using Audio Device Unknown
+[2024.08.09-09.32.58:498][497]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.09-09.32.58:498][497]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.09-09.32.58:498][497]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.09-09.32.58:499][497]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.09-09.32.58:500][497]LogInit: FAudioDevice initialized.
+[2024.08.09-09.32.58:507][497]LogLoad: Game class is 'GameModeBase'
+[2024.08.09-09.32.58:626][497]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.32.58:626][497]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.32.58:627][497]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Demo.Demo up for play (max tick rate 0) at 2024.08.09-18.32.58
+[2024.08.09-09.32.58:630][497]LogWorld: Bringing up level for play took: 0.122299
+[2024.08.09-09.32.58:630][497]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2024.08.09-09.32.58:633][497]PIE: 서버가 로그인했습니다.
+[2024.08.09-09.32.58:634][497]PIE: 에디터에서 플레이 총 시작 시간 0.331초입니다.
+[2024.08.09-09.33.00:409][696]LogParticles: Error: Bad values in FParticleSystemSceneProxy::GetObjectPositionAndScale
+[2024.08.09-09.33.00:409][696]LogParticles: Error: SystemPositionForMacroUVs: {-999434.125000, 84.101112, 44.198826}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: ObjectPostProjectionPositionWithW: {122.437500, -464.062500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: RightPostProjectionPosition: {322.375000, -464.062500, 10.000000, -0.062500}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: UpPostProjectionPosition: {122.437500, -60.437500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: ObjectNDCPosition: {12243750.000000, -46406248.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: RightNDCPosX: -5158.000000
+[2024.08.09-09.33.00:409][696]LogParticles: Error: UpNDCPosY: -inf
+[2024.08.09-09.33.00:409][696]LogParticles: Error: MacroUVPosition: {-999434.125000, 84.101112, 44.198826}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: MacroUVRadius: 200.000000
+[2024.08.09-09.33.00:409][696]LogParticles: Error: DX: -12248908.000000
+[2024.08.09-09.33.00:409][696]LogParticles: Error: DY: -inf
+[2024.08.09-09.33.00:409][696]LogParticles: Error: View0: {0.649798, 0.760107, 0.000000, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: View1: {0.265951, -0.227355, 0.936792, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: View2: {0.712062, -0.608726, -0.349886, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: View3: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: ViewProj0: {0.649611, 0.760266, 0.000092, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: ViewProj1: {0.536822, -0.458917, 1.890366, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: ViewProj2: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: ViewProj3: {0.712062, -0.608726, -0.349886, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: Bad values in FParticleSystemSceneProxy::GetObjectPositionAndScale
+[2024.08.09-09.33.00:409][696]LogParticles: Error: SystemPositionForMacroUVs: {-999434.125000, 84.101112, 44.198826}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: ObjectPostProjectionPositionWithW: {122.437500, -464.062500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: RightPostProjectionPosition: {322.375000, -464.062500, 10.000000, -0.062500}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: UpPostProjectionPosition: {122.437500, -60.437500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: ObjectNDCPosition: {12243750.000000, -46406248.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: RightNDCPosX: -5158.000000
+[2024.08.09-09.33.00:409][696]LogParticles: Error: UpNDCPosY: -inf
+[2024.08.09-09.33.00:409][696]LogParticles: Error: MacroUVPosition: {-999434.125000, 84.101112, 44.198826}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: MacroUVRadius: 200.000000
+[2024.08.09-09.33.00:409][696]LogParticles: Error: DX: -12248908.000000
+[2024.08.09-09.33.00:409][696]LogParticles: Error: DY: -inf
+[2024.08.09-09.33.00:409][696]LogParticles: Error: View0: {0.649798, 0.760107, 0.000000, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: View1: {0.265951, -0.227355, 0.936792, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: View2: {0.712062, -0.608726, -0.349886, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: View3: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: ViewProj0: {0.649611, 0.760266, 0.000092, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: ViewProj1: {0.536822, -0.458917, 1.890366, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: ViewProj2: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: ViewProj3: {0.712062, -0.608726, -0.349886, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: Bad values in FParticleSystemSceneProxy::GetObjectPositionAndScale
+[2024.08.09-09.33.00:409][696]LogParticles: Error: SystemPositionForMacroUVs: {-999434.125000, 84.101112, 44.198826}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: ObjectPostProjectionPositionWithW: {122.437500, -464.062500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: RightPostProjectionPosition: {322.375000, -464.062500, 10.000000, -0.062500}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: UpPostProjectionPosition: {122.437500, -60.437500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: ObjectNDCPosition: {12243750.000000, -46406248.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: RightNDCPosX: -5158.000000
+[2024.08.09-09.33.00:409][696]LogParticles: Error: UpNDCPosY: -inf
+[2024.08.09-09.33.00:409][696]LogParticles: Error: MacroUVPosition: {-999434.125000, 84.101112, 44.198826}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: MacroUVRadius: 200.000000
+[2024.08.09-09.33.00:409][696]LogParticles: Error: DX: -12248908.000000
+[2024.08.09-09.33.00:409][696]LogParticles: Error: DY: -inf
+[2024.08.09-09.33.00:409][696]LogParticles: Error: View0: {0.649798, 0.760107, 0.000000, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: View1: {0.265951, -0.227355, 0.936792, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: View2: {0.712062, -0.608726, -0.349886, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: View3: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: ViewProj0: {0.649611, 0.760266, 0.000092, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: ViewProj1: {0.536822, -0.458917, 1.890366, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: ViewProj2: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: ViewProj3: {0.712062, -0.608726, -0.349886, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: Bad values in FParticleSystemSceneProxy::GetObjectPositionAndScale
+[2024.08.09-09.33.00:409][696]LogParticles: Error: SystemPositionForMacroUVs: {-999434.125000, 84.101112, 44.198826}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: ObjectPostProjectionPositionWithW: {122.437500, -464.062500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: RightPostProjectionPosition: {322.375000, -464.062500, 10.000000, -0.062500}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: UpPostProjectionPosition: {122.437500, -60.437500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: ObjectNDCPosition: {12243750.000000, -46406248.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: RightNDCPosX: -5158.000000
+[2024.08.09-09.33.00:409][696]LogParticles: Error: UpNDCPosY: -inf
+[2024.08.09-09.33.00:409][696]LogParticles: Error: MacroUVPosition: {-999434.125000, 84.101112, 44.198826}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: MacroUVRadius: 200.000000
+[2024.08.09-09.33.00:409][696]LogParticles: Error: DX: -12248908.000000
+[2024.08.09-09.33.00:409][696]LogParticles: Error: DY: -inf
+[2024.08.09-09.33.00:409][696]LogParticles: Error: View0: {0.649798, 0.760107, 0.000000, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: View1: {0.265951, -0.227355, 0.936792, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: View2: {0.712062, -0.608726, -0.349886, 1.000000}
+[2024.08.09-09.33.00:409][696]LogParticles: Error: View3: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:410][696]LogParticles: Error: ViewProj0: {0.649611, 0.760266, 0.000092, 1.000000}
+[2024.08.09-09.33.00:410][696]LogParticles: Error: ViewProj1: {0.536822, -0.458917, 1.890366, 1.000000}
+[2024.08.09-09.33.00:410][696]LogParticles: Error: ViewProj2: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:410][696]LogParticles: Error: ViewProj3: {0.712062, -0.608726, -0.349886, 1.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: Bad values in FParticleSystemSceneProxy::GetObjectPositionAndScale
+[2024.08.09-09.33.00:445][698]LogParticles: Error: SystemPositionForMacroUVs: {-999434.125000, 84.101112, 44.198826}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: ObjectPostProjectionPositionWithW: {139.562500, -449.937500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: RightPostProjectionPosition: {339.562500, -449.937500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: UpPostProjectionPosition: {139.500000, -46.312500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: ObjectNDCPosition: {13956250.000000, -44993752.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: RightNDCPosX: inf
+[2024.08.09-09.33.00:445][698]LogParticles: Error: UpNDCPosY: -inf
+[2024.08.09-09.33.00:445][698]LogParticles: Error: MacroUVPosition: {-999434.125000, 84.101112, 44.198826}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: MacroUVRadius: 200.000000
+[2024.08.09-09.33.00:445][698]LogParticles: Error: DX: 2097152.000000
+[2024.08.09-09.33.00:445][698]LogParticles: Error: DY: -inf
+[2024.08.09-09.33.00:445][698]LogParticles: Error: View0: {0.614109, 0.789221, 0.000000, 1.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: View1: {0.262544, -0.204291, 0.943046, 1.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: View2: {0.744272, -0.579133, -0.332663, 1.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: View3: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: ViewProj0: {0.613892, 0.789390, 0.000097, 1.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: ViewProj1: {0.529050, -0.411665, 1.903393, 1.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: ViewProj2: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: ViewProj3: {0.744272, -0.579133, -0.332663, 1.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: Bad values in FParticleSystemSceneProxy::GetObjectPositionAndScale
+[2024.08.09-09.33.00:445][698]LogParticles: Error: SystemPositionForMacroUVs: {-999434.125000, 84.101112, 44.198826}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: ObjectPostProjectionPositionWithW: {139.562500, -449.937500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: RightPostProjectionPosition: {339.562500, -449.937500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: UpPostProjectionPosition: {139.500000, -46.312500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: ObjectNDCPosition: {13956250.000000, -44993752.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: RightNDCPosX: inf
+[2024.08.09-09.33.00:445][698]LogParticles: Error: UpNDCPosY: -inf
+[2024.08.09-09.33.00:445][698]LogParticles: Error: MacroUVPosition: {-999434.125000, 84.101112, 44.198826}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: MacroUVRadius: 200.000000
+[2024.08.09-09.33.00:445][698]LogParticles: Error: DX: 2097152.000000
+[2024.08.09-09.33.00:445][698]LogParticles: Error: DY: -inf
+[2024.08.09-09.33.00:445][698]LogParticles: Error: View0: {0.614109, 0.789221, 0.000000, 1.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: View1: {0.262544, -0.204291, 0.943046, 1.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: View2: {0.744272, -0.579133, -0.332663, 1.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: View3: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: ViewProj0: {0.613892, 0.789390, 0.000097, 1.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: ViewProj1: {0.529050, -0.411665, 1.903393, 1.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: ViewProj2: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: ViewProj3: {0.744272, -0.579133, -0.332663, 1.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: Bad values in FParticleSystemSceneProxy::GetObjectPositionAndScale
+[2024.08.09-09.33.00:445][698]LogParticles: Error: SystemPositionForMacroUVs: {-999434.125000, 84.101112, 44.198826}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: ObjectPostProjectionPositionWithW: {139.562500, -449.937500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: RightPostProjectionPosition: {339.562500, -449.937500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: UpPostProjectionPosition: {139.500000, -46.312500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: ObjectNDCPosition: {13956250.000000, -44993752.000000}
+[2024.08.09-09.33.00:445][698]LogParticles: Error: RightNDCPosX: inf
+[2024.08.09-09.33.00:446][698]LogParticles: Error: UpNDCPosY: -inf
+[2024.08.09-09.33.00:446][698]LogParticles: Error: MacroUVPosition: {-999434.125000, 84.101112, 44.198826}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: MacroUVRadius: 200.000000
+[2024.08.09-09.33.00:446][698]LogParticles: Error: DX: 2097152.000000
+[2024.08.09-09.33.00:446][698]LogParticles: Error: DY: -inf
+[2024.08.09-09.33.00:446][698]LogParticles: Error: View0: {0.614109, 0.789221, 0.000000, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: View1: {0.262544, -0.204291, 0.943046, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: View2: {0.744272, -0.579133, -0.332663, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: View3: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ViewProj0: {0.613892, 0.789390, 0.000097, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ViewProj1: {0.529050, -0.411665, 1.903393, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ViewProj2: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ViewProj3: {0.744272, -0.579133, -0.332663, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: Bad values in FParticleSystemSceneProxy::GetObjectPositionAndScale
+[2024.08.09-09.33.00:446][698]LogParticles: Error: SystemPositionForMacroUVs: {-999434.125000, 84.101112, 44.198826}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ObjectPostProjectionPositionWithW: {139.562500, -449.937500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: RightPostProjectionPosition: {339.562500, -449.937500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: UpPostProjectionPosition: {139.500000, -46.312500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ObjectNDCPosition: {13956250.000000, -44993752.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: RightNDCPosX: inf
+[2024.08.09-09.33.00:446][698]LogParticles: Error: UpNDCPosY: -inf
+[2024.08.09-09.33.00:446][698]LogParticles: Error: MacroUVPosition: {-999434.125000, 84.101112, 44.198826}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: MacroUVRadius: 200.000000
+[2024.08.09-09.33.00:446][698]LogParticles: Error: DX: 2097152.000000
+[2024.08.09-09.33.00:446][698]LogParticles: Error: DY: -inf
+[2024.08.09-09.33.00:446][698]LogParticles: Error: View0: {0.614109, 0.789221, 0.000000, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: View1: {0.262544, -0.204291, 0.943046, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: View2: {0.744272, -0.579133, -0.332663, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: View3: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ViewProj0: {0.613892, 0.789390, 0.000097, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ViewProj1: {0.529050, -0.411665, 1.903393, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ViewProj2: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ViewProj3: {0.744272, -0.579133, -0.332663, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: Bad values in FParticleSystemSceneProxy::GetObjectPositionAndScale
+[2024.08.09-09.33.00:446][698]LogParticles: Error: SystemPositionForMacroUVs: {-999434.000000, 84.161301, 44.420242}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ObjectPostProjectionPositionWithW: {139.687500, -449.437500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: RightPostProjectionPosition: {339.687500, -449.437500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: UpPostProjectionPosition: {139.687500, -45.812500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ObjectNDCPosition: {13968750.000000, -44943752.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: RightNDCPosX: inf
+[2024.08.09-09.33.00:446][698]LogParticles: Error: UpNDCPosY: -inf
+[2024.08.09-09.33.00:446][698]LogParticles: Error: MacroUVPosition: {-999434.000000, 84.161301, 44.420242}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: MacroUVRadius: 200.000000
+[2024.08.09-09.33.00:446][698]LogParticles: Error: DX: 2097152.000000
+[2024.08.09-09.33.00:446][698]LogParticles: Error: DY: -inf
+[2024.08.09-09.33.00:446][698]LogParticles: Error: View0: {0.614109, 0.789221, 0.000000, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: View1: {0.262544, -0.204291, 0.943046, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: View2: {0.744272, -0.579133, -0.332663, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: View3: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ViewProj0: {0.613892, 0.789390, 0.000097, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ViewProj1: {0.529050, -0.411665, 1.903393, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ViewProj2: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ViewProj3: {0.744272, -0.579133, -0.332663, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: Bad values in FParticleSystemSceneProxy::GetObjectPositionAndScale
+[2024.08.09-09.33.00:446][698]LogParticles: Error: SystemPositionForMacroUVs: {-999434.000000, 84.161301, 44.420242}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ObjectPostProjectionPositionWithW: {139.687500, -449.437500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: RightPostProjectionPosition: {339.687500, -449.437500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: UpPostProjectionPosition: {139.687500, -45.812500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ObjectNDCPosition: {13968750.000000, -44943752.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: RightNDCPosX: inf
+[2024.08.09-09.33.00:446][698]LogParticles: Error: UpNDCPosY: -inf
+[2024.08.09-09.33.00:446][698]LogParticles: Error: MacroUVPosition: {-999434.000000, 84.161301, 44.420242}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: MacroUVRadius: 200.000000
+[2024.08.09-09.33.00:446][698]LogParticles: Error: DX: 2097152.000000
+[2024.08.09-09.33.00:446][698]LogParticles: Error: DY: -inf
+[2024.08.09-09.33.00:446][698]LogParticles: Error: View0: {0.614109, 0.789221, 0.000000, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: View1: {0.262544, -0.204291, 0.943046, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: View2: {0.744272, -0.579133, -0.332663, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: View3: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ViewProj0: {0.613892, 0.789390, 0.000097, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ViewProj1: {0.529050, -0.411665, 1.903393, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ViewProj2: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ViewProj3: {0.744272, -0.579133, -0.332663, 1.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: Bad values in FParticleSystemSceneProxy::GetObjectPositionAndScale
+[2024.08.09-09.33.00:446][698]LogParticles: Error: SystemPositionForMacroUVs: {-999434.000000, 84.161301, 44.420242}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: ObjectPostProjectionPositionWithW: {139.687500, -449.437500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: RightPostProjectionPosition: {339.687500, -449.437500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:446][698]LogParticles: Error: UpPostProjectionPosition: {139.687500, -45.812500, 10.000000, 0.000000}
+[2024.08.09-09.33.00:447][698]LogParticles: Error: ObjectNDCPosition: {13968750.000000, -44943752.000000}
+[2024.08.09-09.33.00:447][698]LogParticles: Error: RightNDCPosX: inf
+[2024.08.09-09.33.00:447][698]LogParticles: Error: UpNDCPosY: -inf
+[2024.08.09-09.33.00:447][698]LogParticles: Error: MacroUVPosition: {-999434.000000, 84.161301, 44.420242}
+[2024.08.09-09.33.00:447][698]LogParticles: Error: MacroUVRadius: 200.000000
+[2024.08.09-09.33.00:447][698]LogParticles: Error: DX: 2097152.000000
+[2024.08.09-09.33.00:447][698]LogParticles: Error: DY: -inf
+[2024.08.09-09.33.00:447][698]LogParticles: Error: View0: {0.614109, 0.789221, 0.000000, 1.000000}
+[2024.08.09-09.33.00:447][698]LogParticles: Error: View1: {0.262544, -0.204291, 0.943046, 1.000000}
+[2024.08.09-09.33.00:447][698]LogParticles: Error: View2: {0.744272, -0.579133, -0.332663, 1.000000}
+[2024.08.09-09.33.00:447][698]LogParticles: Error: View3: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:447][698]LogParticles: Error: ViewProj0: {0.613892, 0.789390, 0.000097, 1.000000}
+[2024.08.09-09.33.00:447][698]LogParticles: Error: ViewProj1: {0.529050, -0.411665, 1.903393, 1.000000}
+[2024.08.09-09.33.00:447][698]LogParticles: Error: ViewProj2: {0.000000, 0.000000, 0.000000, 1.000000}
+[2024.08.09-09.33.00:447][698]LogParticles: Error: ViewProj3: {0.744272, -0.579133, -0.332663, 1.000000}
+[2024.08.09-09.33.03:375][  2]PIE: Warning: BP_Enemy_2.CharacterMesh0 SK_Mannequin 에 '피직스 시뮬레이션' 옵션이 켜져있어야 힘 추가 가능합니다. 
+[2024.08.09-09.33.04:564][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.33.04:564][141]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.33.04:565][141]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2024.08.09-09.33.04:595][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.33.04:604][141]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.09-09.33.04:609][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.33.04:630][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.33.04:657][141]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022D135F0900), frame # 103141
+[2024.08.09-09.33.04:657][141]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022D53D8DE00), frame # 103141
+[2024.08.09-09.33.04:665][141]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2024.08.09-09.33.04:825][142]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.08.09-09.33.05:817][240]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.33.05:821][240]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.33.10:413][635]LogTemp: Repeating last play command: 선택된 뷰포트
+[2024.08.09-09.33.10:423][635]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.09-09.33.10:423][635]PIE: New page: PIE 세션: Demo (2024. 8. 10. 오전 3:33:10)
+[2024.08.09-09.33.10:423][635]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.33.10:579][635]LogPlayLevel: PIE: StaticDuplicateObject took: (0.155546s)
+[2024.08.09-09.33.10:580][635]LogAIModule: Creating AISystem for world Demo
+[2024.08.09-09.33.10:580][635]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022D77933200), frame # 103635
+[2024.08.09-09.33.10:580][635]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022D13C4D940), frame # 103635
+[2024.08.09-09.33.10:580][635]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2024.08.09-09.33.10:580][635]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Demo.Demo to /Game/Maps/UEDPIE_0_Demo.Demo (0.156559s)
+[2024.08.09-09.33.10:605][635]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2024.08.09-09.33.10:608][635]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.09-09.33.10:608][635]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.09-09.33.10:608][635]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.09-09.33.10:609][635]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.09-09.33.10:609][635]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.09-09.33.10:609][635]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.09-09.33.10:609][635]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.09-09.33.10:609][635]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.09-09.33.10:609][635]LogAudio: Display: Using built-in audio occlusion.
+[2024.08.09-09.33.10:609][635]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.09-09.33.10:611][635]LogAudioMixer: Display: Using Audio Device Unknown
+[2024.08.09-09.33.10:611][635]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.09-09.33.10:611][635]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.09-09.33.10:611][635]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.09-09.33.10:612][635]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.09-09.33.10:614][635]LogInit: FAudioDevice initialized.
+[2024.08.09-09.33.10:623][635]LogLoad: Game class is 'GameModeBase'
+[2024.08.09-09.33.10:747][635]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.33.10:747][635]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.33.10:748][635]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Demo.Demo up for play (max tick rate 0) at 2024.08.09-18.33.10
+[2024.08.09-09.33.10:752][635]LogWorld: Bringing up level for play took: 0.128351
+[2024.08.09-09.33.10:752][635]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2024.08.09-09.33.10:755][635]PIE: 서버가 로그인했습니다.
+[2024.08.09-09.33.10:755][635]PIE: 에디터에서 플레이 총 시작 시간 0.334초입니다.
+[2024.08.09-09.33.11:219][672]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.33.11:219][672]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.33.11:221][672]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2024.08.09-09.33.11:260][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.33.11:266][672]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.09-09.33.11:271][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.33.11:302][672]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.33.11:326][672]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022D13C4D940), frame # 103672
+[2024.08.09-09.33.11:326][672]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022D77933200), frame # 103672
+[2024.08.09-09.33.11:332][672]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2024.08.09-09.33.11:470][673]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.08.09-09.33.16:234][  5]LogEditorViewport: Clicking on Actor (LMB): BP_Enemy_C (BP_Enemy)
+[2024.08.09-09.33.33:688][588]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2024.08.09-09.33.39:465][892]LogEditorViewport: Clicking on Actor (LMB): BP_Enemy_C (BP_Enemy)
+[2024.08.09-09.33.58:160][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Demo" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Maps/Demo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.09-09.33.58:184][547]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.08.09-09.33.58:955][547]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/Demo9431CE274453799BC80B2BAD30F99419.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Maps/Demo.umap'
+[2024.08.09-09.33.58:974][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Demo_BuiltData" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Maps/Demo_BuiltData.uasset" SILENT=true
+[2024.08.09-09.33.59:001][547]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/Demo_BuiltData0A3BE4CE49C672DA98FD0D8FDD095E6C.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Maps/Demo_BuiltData.uasset'
+[2024.08.09-09.33.59:052][547]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
+[2024.08.09-09.33.59:052][547]LogContentValidation: Display: World /Game/Maps/Demo.Demo 유효성 검사
+[2024.08.09-09.33.59:052][547]LogContentValidation: Display: MapBuildDataRegistry /Game/Maps/Demo_BuiltData.Demo_BuiltData 유효성 검사
+[2024.08.09-09.33.59:391][577]LogTemp: Repeating last play command: 선택된 뷰포트
+[2024.08.09-09.33.59:405][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.09-09.33.59:405][577]PIE: New page: PIE 세션: Demo (2024. 8. 10. 오전 3:33:59)
+[2024.08.09-09.33.59:405][577]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.33.59:558][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.153405s)
+[2024.08.09-09.33.59:559][577]LogAIModule: Creating AISystem for world Demo
+[2024.08.09-09.33.59:559][577]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022D1FCD4600), frame # 107577
+[2024.08.09-09.33.59:560][577]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022D19A39800), frame # 107577
+[2024.08.09-09.33.59:560][577]LogPlayLevel: PIE: World Init took: (0.001319s)
+[2024.08.09-09.33.59:560][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Demo.Demo to /Game/Maps/UEDPIE_0_Demo.Demo (0.154858s)
+[2024.08.09-09.33.59:583][577]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2024.08.09-09.33.59:583][577]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.09-09.33.59:583][577]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.09-09.33.59:583][577]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.09-09.33.59:583][577]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.09-09.33.59:583][577]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.09-09.33.59:583][577]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.09-09.33.59:583][577]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.09-09.33.59:583][577]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.09-09.33.59:584][577]LogAudio: Display: Using built-in audio occlusion.
+[2024.08.09-09.33.59:584][577]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.09-09.33.59:586][577]LogAudioMixer: Display: Using Audio Device Unknown
+[2024.08.09-09.33.59:586][577]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.09-09.33.59:586][577]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.09-09.33.59:586][577]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.09-09.33.59:586][577]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.09-09.33.59:588][577]LogInit: FAudioDevice initialized.
+[2024.08.09-09.33.59:593][577]LogLoad: Game class is 'GameModeBase'
+[2024.08.09-09.33.59:714][577]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.33.59:714][577]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.33.59:715][577]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Demo.Demo up for play (max tick rate 0) at 2024.08.09-18.33.59
+[2024.08.09-09.33.59:718][577]LogWorld: Bringing up level for play took: 0.124905
+[2024.08.09-09.33.59:719][577]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2024.08.09-09.33.59:721][577]PIE: 서버가 로그인했습니다.
+[2024.08.09-09.33.59:722][577]PIE: 에디터에서 플레이 총 시작 시간 0.323초입니다.
+[2024.08.09-09.34.02:689][906]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.34.02:690][906]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.34.02:692][906]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2024.08.09-09.34.02:724][906]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.34.02:736][906]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.09-09.34.02:741][906]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.34.02:762][906]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.34.02:794][906]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022D19A39800), frame # 107906
+[2024.08.09-09.34.02:794][906]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022D1FCD4600), frame # 107906
+[2024.08.09-09.34.02:801][906]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2024.08.09-09.34.02:882][907]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.08.09-09.34.11:626][906]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.34.11:631][906]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.34.37:901][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.34.37:956][330]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_Enemy270AF3E34244F152BDDB808E2BBF63AF.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.34.37:971][330]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.34.37:971][330]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.34.39:147][462]LogTemp: Repeating last play command: 선택된 뷰포트
+[2024.08.09-09.34.39:158][462]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2024.08.09-09.34.39:160][462]LogPlayLevel: [PlayLevel] Compiling BP_Enemy before play...
+[2024.08.09-09.34.39:224][462]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2024.08.09-09.34.39:229][462]LogPlayLevel: PlayLevel: Blueprint regeneration took 71 ms (1 blueprints)
+[2024.08.09-09.34.39:229][462]PIE: New page: PIE 세션: Demo (2024. 8. 10. 오전 3:34:39)
+[2024.08.09-09.34.39:253][462]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.34.39:439][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.185952s)
+[2024.08.09-09.34.39:440][462]LogAIModule: Creating AISystem for world Demo
+[2024.08.09-09.34.39:440][462]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022D14F9E200), frame # 111462
+[2024.08.09-09.34.39:440][462]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022D8735C680), frame # 111462
+[2024.08.09-09.34.39:440][462]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2024.08.09-09.34.39:441][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Demo.Demo to /Game/Maps/UEDPIE_0_Demo.Demo (0.187177s)
+[2024.08.09-09.34.39:464][462]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2024.08.09-09.34.39:465][462]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.09-09.34.39:465][462]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.09-09.34.39:465][462]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.09-09.34.39:465][462]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.09-09.34.39:465][462]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.09-09.34.39:465][462]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.09-09.34.39:465][462]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.09-09.34.39:465][462]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.09-09.34.39:465][462]LogAudio: Display: Using built-in audio occlusion.
+[2024.08.09-09.34.39:465][462]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.09-09.34.39:467][462]LogAudioMixer: Display: Using Audio Device Unknown
+[2024.08.09-09.34.39:467][462]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.09-09.34.39:467][462]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.09-09.34.39:467][462]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.09-09.34.39:468][462]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.09-09.34.39:469][462]LogInit: FAudioDevice initialized.
+[2024.08.09-09.34.39:474][462]LogLoad: Game class is 'GameModeBase'
+[2024.08.09-09.34.39:594][462]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.34.39:594][462]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.34.39:595][462]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Demo.Demo up for play (max tick rate 0) at 2024.08.09-18.34.39
+[2024.08.09-09.34.39:598][462]LogWorld: Bringing up level for play took: 0.123752
+[2024.08.09-09.34.39:598][462]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2024.08.09-09.34.39:601][462]PIE: 서버가 로그인했습니다.
+[2024.08.09-09.34.39:602][462]PIE: 에디터에서 플레이 총 시작 시간 0.446초입니다.
+[2024.08.09-09.34.39:988][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.34.39:988][489]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.34.39:990][489]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2024.08.09-09.34.40:035][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.34.40:045][489]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.09-09.34.40:051][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.34.40:070][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.34.40:100][489]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022D8735C680), frame # 111489
+[2024.08.09-09.34.40:100][489]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022D14F9E200), frame # 111489
+[2024.08.09-09.34.40:107][489]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2024.08.09-09.34.40:250][490]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.08.09-09.34.43:528][770]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.34.43:533][770]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.34.54:288][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.34.54:343][715]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_EnemyCE509A3140A71EE870A4F39EC536D2EA.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.34.54:359][715]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.34.54:360][715]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.34.55:059][779]LogTemp: Repeating last play command: 선택된 뷰포트
+[2024.08.09-09.34.55:072][779]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2024.08.09-09.34.55:074][779]LogPlayLevel: [PlayLevel] Compiling BP_Enemy before play...
+[2024.08.09-09.34.55:135][779]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2024.08.09-09.34.55:139][779]LogPlayLevel: PlayLevel: Blueprint regeneration took 66 ms (1 blueprints)
+[2024.08.09-09.34.55:139][779]PIE: New page: PIE 세션: Demo (2024. 8. 10. 오전 3:34:55)
+[2024.08.09-09.34.55:168][779]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.34.55:351][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.182364s)
+[2024.08.09-09.34.55:352][779]LogAIModule: Creating AISystem for world Demo
+[2024.08.09-09.34.55:352][779]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022D38C70400), frame # 112779
+[2024.08.09-09.34.55:352][779]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022D0A109D00), frame # 112779
+[2024.08.09-09.34.55:352][779]LogPlayLevel: PIE: World Init took: (0.001597s)
+[2024.08.09-09.34.55:352][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Demo.Demo to /Game/Maps/UEDPIE_0_Demo.Demo (0.184184s)
+[2024.08.09-09.34.55:376][779]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2024.08.09-09.34.55:377][779]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.09-09.34.55:377][779]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.09-09.34.55:377][779]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.09-09.34.55:377][779]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.09-09.34.55:377][779]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.09-09.34.55:377][779]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.09-09.34.55:377][779]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.09-09.34.55:377][779]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.09-09.34.55:377][779]LogAudio: Display: Using built-in audio occlusion.
+[2024.08.09-09.34.55:377][779]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.09-09.34.55:379][779]LogAudioMixer: Display: Using Audio Device Unknown
+[2024.08.09-09.34.55:379][779]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.09-09.34.55:379][779]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.09-09.34.55:379][779]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.09-09.34.55:379][779]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.09-09.34.55:381][779]LogInit: FAudioDevice initialized.
+[2024.08.09-09.34.55:398][779]LogLoad: Game class is 'GameModeBase'
+[2024.08.09-09.34.55:517][779]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.34.55:517][779]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (BP_Enemy_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2024.08.09-09.34.55:518][779]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Demo.Demo up for play (max tick rate 0) at 2024.08.09-18.34.55
+[2024.08.09-09.34.55:521][779]LogWorld: Bringing up level for play took: 0.122265
+[2024.08.09-09.34.55:521][779]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2024.08.09-09.34.55:524][779]PIE: 서버가 로그인했습니다.
+[2024.08.09-09.34.55:525][779]PIE: 에디터에서 플레이 총 시작 시간 0.457초입니다.
+[2024.08.09-09.34.56:130][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.34.56:130][828]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Demo
+[2024.08.09-09.34.56:132][828]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2024.08.09-09.34.56:160][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.34.56:176][828]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.09-09.34.56:184][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.34.56:207][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-09.34.56:256][828]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022D0A109D00), frame # 112828
+[2024.08.09-09.34.56:256][828]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022D38C70400), frame # 112828
+[2024.08.09-09.34.56:268][828]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2024.08.09-09.34.56:419][829]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.08.09-09.34.57:591][897]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.34.57:597][897]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.09-09.35.01:422][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.08.09-09.35.01:477][208]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_Enemy5A38AD4146A5301CF815B0B32CFFF3B1.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Enemies/BP_Enemy.uasset'
+[2024.08.09-09.35.01:494][208]AssetCheck: New page: 애셋 저장: BP_Enemy
+[2024.08.09-09.35.01:494][208]LogContentValidation: Display: Blueprint /Game/Enemies/BP_Enemy.BP_Enemy 유효성 검사
+[2024.08.09-09.35.11:366][ 51]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.08.09-09.35.11:366][ 51]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player/BP_Player.BP_Player
+[2024.08.09-09.35.37:542][525]LogEditorTransaction: Undo 노드 이동
+[2024.08.09-09.35.37:754][525]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.09-09.35.37:759][525]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2024.08.09-09.35.38:668][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/LJS/IM03_ThirdPersonBP/Content/Player/BP_Player.uasset" SILENT=true
+[2024.08.09-09.35.38:731][585]LogSavePackage: Moving 'C:/LJS/IM03_ThirdPersonBP/Saved/BP_PlayerD7A05E0B48131DC67B802F8DD736FEAF.tmp' to 'C:/LJS/IM03_ThirdPersonBP/Content/Player/BP_Player.uasset'
+[2024.08.09-09.35.38:748][585]AssetCheck: New page: 애셋 저장: BP_Player
+[2024.08.09-09.35.38:748][585]LogContentValidation: Display: Blueprint /Game/Player/BP_Player.BP_Player 유효성 검사
+[2024.08.09-09.35.54:419][ 86]LogLinker: Warning: 'C:/LJS/IM03_ThirdPersonBP/Content/Character/Animations/Common/Roll.uasset' 로드 도중 '/Game/Character/Mesh/UE4_Mannequin_Skeleton' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2024.08.09-09.35.54:419][ 86]LogLinker: Warning: 'C:/LJS/IM03_ThirdPersonBP/Content/Character/Animations/Common/Roll.uasset' 로드 도중 '/Game/Character/Mesh/UE4_Mannequin_Skeleton' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2024.08.09-09.35.54:419][ 86]LogLinker: Warning: 'C:/LJS/IM03_ThirdPersonBP/Content/Character/Animations/Common/Roll.uasset' 로드 도중 '/Game/Character/Mesh/UE4_Mannequin_Skeleton' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2024.08.09-09.35.54:419][ 86]LogLinker: Warning: 'C:/LJS/IM03_ThirdPersonBP/Content/Character/Animations/Common/Roll.uasset' 로드 도중 '/Game/Character/Mesh/UE4_Mannequin_Skeleton' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2024.08.09-09.35.54:420][ 86]LogLinker: Warning: 'C:/LJS/IM03_ThirdPersonBP/Content/Character/Animations/Common/Roll.uasset' 로드 도중 '/Game/Character/Mesh/UE4_Mannequin_Skeleton' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2024.08.09-09.35.54:420][ 86]LoadErrors: 로드에 실패했습니다. /Game/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton 참조한 것: Roll
+[2024.08.09-09.35.54:420][ 86]LogLinker: Warning: 'C:/LJS/IM03_ThirdPersonBP/Content/Character/Animations/Common/Roll.uasset' 로드 도중 '/Game/Character/Mesh/UE4_Mannequin_Skeleton' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2024.08.09-09.35.54:442][ 86]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Character/Animations/Common/Roll.Roll
+[2024.08.09-09.35.55:287][ 86]LogSlate: Window '메시지' being destroyed
+[2024.08.09-09.35.55:291][ 86]Message dialog closed, result: Yes, title: 메시지, text: 'Roll' 애님에 대한 스켈레톤을 찾을 수 없습니다. 새로 하나 선택하시겠습니까?
+[2024.08.09-09.35.55:441][ 86]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2024.08.09-09.36.00:463][553]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Common/Roll.Roll
+[2024.08.09-09.36.00:463][553]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Common/Roll.Roll
+[2024.08.09-09.36.00:519][553]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Character/Animations/Common/Roll.Roll
+[2024.08.09-09.36.00:573][553]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.09-09.36.00:652][553]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2024.08.09-09.36.00:987][553]LogSlate: Window '스켈레톤 선택' being destroyed
+[2024.08.09-09.36.00:989][553]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.08.09-09.36.00:989][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.36.00:998][553]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.08.09-09.36.00:998][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.36.01:338][553]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Common/Roll.Roll
+[2024.08.09-09.36.01:577][553]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2024.08.09-09.36.03:559][707]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Character/Animations/Common/DeadFall.DeadFall
+[2024.08.09-09.36.03:722][707]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2024.08.09-09.36.03:722][707]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-09.36.34:086][473]LogLinker: Warning: 'C:/LJS/IM03_ThirdPersonBP/Content/Character/Animations/Common/BackStep.uasset' 로드 도중 '/Game/Character/Mesh/UE4_Mannequin_Skeleton' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2024.08.09-09.36.34:086][473]LogLinker: Warning: 'C:/LJS/IM03_ThirdPersonBP/Content/Character/Animations/Common/BackStep.uasset' 로드 도중 '/Game/Character/Mesh/UE4_Mannequin_Skeleton' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2024.08.09-09.36.34:087][473]LogLinker: Warning: 'C:/LJS/IM03_ThirdPersonBP/Content/Character/Animations/Common/BackStep.uasset' 로드 도중 '/Game/Character/Mesh/UE4_Mannequin_Skeleton' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2024.08.09-09.36.34:087][473]LogLinker: Warning: 'C:/LJS/IM03_ThirdPersonBP/Content/Character/Animations/Common/BackStep.uasset' 로드 도중 '/Game/Character/Mesh/UE4_Mannequin_Skeleton' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2024.08.09-09.36.34:087][473]LogLinker: Warning: 'C:/LJS/IM03_ThirdPersonBP/Content/Character/Animations/Common/BackStep.uasset' 로드 도중 '/Game/Character/Mesh/UE4_Mannequin_Skeleton' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2024.08.09-09.36.34:087][473]LoadErrors: 로드에 실패했습니다. /Game/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton 참조한 것: BackStep
+[2024.08.09-09.36.34:087][473]LogLinker: Warning: 'C:/LJS/IM03_ThirdPersonBP/Content/Character/Animations/Common/BackStep.uasset' 로드 도중 '/Game/Character/Mesh/UE4_Mannequin_Skeleton' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2024.08.09-09.36.36:422][703]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2024.08.09-09.36.36:422][703]LogWindows: Windows GetLastError: 작업을 완료했습니다. (0)
